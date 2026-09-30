@@ -1,0 +1,1201 @@
+transaction_id,merchant_id,amount,transaction_time,payment_status,payment_method,device_type,location,failed_attempts,transaction_frequency,customer_age_days,previous_chargebacks,dispute_type,fraud_risk_label
+txn_000001,M0006,20.31,2024-11-05T13:14:27,failed,cash,desktop,New York,1,8,944,0,none,low
+txn_000002,M0038,122.47,2025-03-19T23:14:27,completed,bank_transfer,desktop,Los Angeles,2,1,2328,0,none,low
+txn_000003,M0023,691.62,2025-09-05T09:14:27,completed,bank_transfer,desktop,Berlin,2,10,1623,2,chargeback,medium
+txn_000004,M0046,486.77,2025-01-04T01:14:27,completed,card,desktop,Dallas,1,3,2291,1,none,low
+txn_000005,M0014,1775.17,2025-09-21T07:14:27,completed,bank_transfer,tablet,Chicago,2,7,838,2,authorization,medium
+txn_000006,M0044,92.2,2024-12-12T14:14:27,completed,bank_transfer,desktop,Dallas,2,8,699,1,none,low
+txn_000007,M0042,1472.48,2025-02-25T14:14:27,completed,cash,mobile,Berlin,4,12,195,1,none,medium
+txn_000008,M0015,76.7,2025-07-17T18:14:27,completed,wallet,tablet,Berlin,2,18,2237,1,none,low
+txn_000009,M0030,31.18,2025-08-31T00:14:27,completed,bank_transfer,tablet,New York,0,5,685,1,none,low
+txn_000010,M0047,312.45,2025-07-11T07:14:27,completed,bank_transfer,tablet,Los Angeles,3,28,1372,2,chargeback,medium
+txn_000011,M0034,60.35,2026-04-16T19:14:27,refunded,card,tablet,Seattle,2,10,2109,0,duplicate,low
+txn_000012,M0032,63.04,2025-02-26T10:14:27,completed,card,tablet,Los Angeles,1,10,1010,0,billing,low
+txn_000013,M0046,241.84,2025-03-25T13:14:27,completed,bank_transfer,mobile,Seattle,2,6,1115,1,none,low
+txn_000014,M0015,262.65,2025-02-03T19:14:27,completed,card,desktop,New York,0,8,950,0,none,low
+txn_000015,M0047,453.47,2025-05-20T06:14:27,completed,cash,desktop,Berlin,1,3,2135,0,none,low
+txn_000016,M0042,439.89,2025-06-07T13:14:27,completed,card,desktop,London,1,25,942,2,duplicate,medium
+txn_000017,M0030,1465.0,2026-05-08T23:14:27,completed,wallet,desktop,Berlin,1,11,452,1,authorization,medium
+txn_000018,M0031,1558.02,2026-01-30T07:14:27,completed,wallet,mobile,New York,1,5,1395,0,none,medium
+txn_000019,M0010,9.06,2025-03-08T15:14:27,completed,wallet,mobile,Dallas,1,9,1893,1,none,low
+txn_000020,M0033,3601.33,2025-05-02T20:14:27,completed,card,desktop,Chicago,2,25,244,1,duplicate,high
+txn_000021,M0043,340.2,2026-08-19T17:14:27,completed,bank_transfer,mobile,Dallas,0,13,521,0,none,low
+txn_000022,M0037,647.83,2026-07-17T12:14:27,completed,card,desktop,Toronto,3,16,328,2,authorization,medium
+txn_000023,M0040,138.48,2025-07-07T19:14:27,completed,card,tablet,Toronto,1,3,1030,1,none,low
+txn_000024,M0014,334.39,2026-04-23T04:14:27,completed,bank_transfer,desktop,Miami,0,9,502,0,none,low
+txn_000025,M0017,131.55,2025-10-23T08:14:27,completed,wallet,tablet,Berlin,0,3,1764,1,chargeback,low
+txn_000026,M0028,218.42,2025-09-15T18:14:27,completed,wallet,desktop,Miami,0,4,338,0,none,low
+txn_000027,M0027,467.08,2025-10-01T19:14:27,failed,wallet,desktop,Los Angeles,0,12,890,0,none,low
+txn_000028,M0016,4921.4,2025-08-03T15:14:27,failed,bank_transfer,desktop,Chicago,8,6,744,6,billing,high
+txn_000029,M0013,27.05,2026-02-08T05:14:27,completed,cash,mobile,Miami,1,8,847,1,none,low
+txn_000030,M0008,1744.37,2025-03-29T02:14:27,failed,bank_transfer,desktop,Sydney,3,15,1373,3,none,medium
+txn_000031,M0008,1813.16,2025-07-09T17:14:27,refunded,cash,tablet,Dallas,3,32,1425,6,authorization,high
+txn_000032,M0040,356.72,2026-07-19T15:14:27,failed,bank_transfer,tablet,Chicago,0,17,2235,0,none,low
+txn_000033,M0027,624.54,2025-11-30T19:14:27,completed,cash,tablet,Los Angeles,3,25,896,2,duplicate,medium
+txn_000034,M0030,156.07,2025-02-12T17:14:27,completed,cash,mobile,Dallas,2,1,1274,1,authorization,low
+txn_000035,M0049,398.52,2024-12-19T17:14:27,completed,wallet,tablet,Miami,2,6,377,1,none,low
+txn_000036,M0041,105.97,2026-07-16T22:14:27,completed,wallet,tablet,London,0,2,1032,1,none,low
+txn_000037,M0016,128.04,2025-04-16T22:14:27,completed,card,mobile,Los Angeles,2,1,466,1,authorization,low
+txn_000038,M0048,1241.53,2025-03-16T22:14:27,failed,cash,mobile,Miami,3,28,966,3,none,medium
+txn_000039,M0019,1530.97,2025-12-21T22:14:27,completed,wallet,mobile,Seattle,3,28,1652,3,billing,medium
+txn_000040,M0022,273.75,2026-02-22T10:14:27,completed,cash,mobile,New York,0,5,977,1,none,low
+txn_000041,M0027,214.71,2025-10-04T03:14:27,pending,wallet,mobile,Dallas,2,1,2388,1,none,low
+txn_000042,M0026,246.94,2026-05-21T17:14:27,completed,card,desktop,London,1,11,1686,0,none,low
+txn_000043,M0025,235.16,2025-10-30T02:14:27,pending,bank_transfer,mobile,Miami,0,9,1582,1,authorization,low
+txn_000044,M0016,910.12,2024-12-01T11:14:27,pending,wallet,desktop,Sydney,1,15,519,0,none,medium
+txn_000045,M0039,70.1,2026-01-10T01:14:27,completed,card,desktop,Miami,2,4,2340,0,none,low
+txn_000046,M0050,20.63,2024-12-26T05:14:27,completed,bank_transfer,tablet,Sydney,1,13,1654,0,refund,low
+txn_000047,M0001,1457.66,2026-07-20T20:14:27,completed,cash,mobile,Chicago,1,15,1151,3,none,medium
+txn_000048,M0035,186.2,2024-12-02T04:14:27,completed,cash,mobile,London,1,5,1813,0,none,low
+txn_000049,M0037,1115.36,2025-06-25T05:14:27,pending,cash,mobile,New York,3,11,1761,0,refund,medium
+txn_000050,M0036,167.91,2025-01-26T14:14:27,failed,card,tablet,Dallas,1,7,1483,1,none,low
+txn_000051,M0006,362.28,2025-05-14T22:14:27,pending,bank_transfer,desktop,London,1,18,1014,1,none,low
+txn_000052,M0030,634.43,2025-03-15T02:14:27,completed,bank_transfer,mobile,Miami,3,19,1193,2,duplicate,medium
+txn_000053,M0049,362.87,2025-05-22T04:14:27,pending,bank_transfer,desktop,Dallas,1,4,2224,0,authorization,low
+txn_000054,M0009,185.55,2026-08-04T19:14:27,completed,cash,desktop,New York,1,1,2217,0,none,low
+txn_000055,M0026,238.94,2025-05-28T09:14:27,pending,cash,desktop,Sydney,1,11,785,0,none,low
+txn_000056,M0040,34.38,2025-07-29T17:14:27,completed,wallet,tablet,London,0,10,378,0,refund,low
+txn_000057,M0017,225.82,2026-06-20T06:14:27,completed,card,desktop,Dallas,2,14,1280,0,none,low
+txn_000058,M0045,44.93,2026-02-04T03:14:27,completed,cash,desktop,Dallas,0,14,1875,1,none,low
+txn_000059,M0005,4790.62,2026-04-30T04:14:27,pending,card,desktop,Miami,5,32,480,5,chargeback,high
+txn_000060,M0032,413.53,2025-08-13T04:14:27,completed,cash,desktop,Sydney,1,15,539,1,none,low
+txn_000061,M0002,220.56,2024-11-07T18:14:27,completed,bank_transfer,tablet,New York,1,9,135,0,billing,low
+txn_000062,M0027,414.32,2025-05-14T10:14:27,completed,bank_transfer,mobile,Chicago,4,12,431,3,none,medium
+txn_000063,M0021,674.07,2025-03-15T11:14:27,completed,bank_transfer,mobile,Chicago,4,13,1416,3,none,medium
+txn_000064,M0032,2603.8,2025-04-17T01:14:27,completed,cash,desktop,Dallas,2,39,1902,4,chargeback,high
+txn_000065,M0046,72.46,2024-12-22T17:14:27,pending,wallet,mobile,Toronto,1,15,2015,0,chargeback,low
+txn_000066,M0019,208.73,2026-04-24T21:14:27,failed,bank_transfer,mobile,Berlin,0,4,1920,0,none,low
+txn_000067,M0027,1689.27,2026-05-13T10:14:27,completed,bank_transfer,tablet,Miami,4,29,790,5,duplicate,high
+txn_000068,M0022,595.17,2025-06-28T19:14:27,completed,cash,mobile,Seattle,3,30,1262,3,none,medium
+txn_000069,M0031,1767.7,2025-08-05T11:14:27,completed,cash,mobile,Los Angeles,2,22,844,1,none,medium
+txn_000070,M0027,26.21,2025-06-19T12:14:27,pending,wallet,desktop,Berlin,2,11,441,1,refund,low
+txn_000071,M0041,565.24,2025-04-01T00:14:27,refunded,cash,tablet,New York,4,24,224,2,none,medium
+txn_000072,M0007,123.51,2026-06-20T16:14:27,completed,cash,desktop,Miami,2,10,961,0,none,low
+txn_000073,M0044,562.15,2026-01-21T20:14:27,completed,wallet,desktop,Los Angeles,2,23,1478,3,refund,high
+txn_000074,M0043,436.45,2024-12-15T04:14:27,completed,card,mobile,Miami,2,8,2068,0,billing,low
+txn_000075,M0020,385.4,2025-07-21T14:14:27,completed,wallet,mobile,Berlin,4,15,1263,2,none,medium
+txn_000076,M0037,195.63,2024-11-24T00:14:27,completed,card,tablet,Berlin,1,10,1239,0,none,low
+txn_000077,M0049,1636.93,2026-03-18T17:14:27,completed,wallet,tablet,Chicago,2,23,1702,2,refund,medium
+txn_000078,M0021,3984.14,2026-05-18T10:14:27,failed,cash,desktop,Dallas,6,33,146,5,refund,high
+txn_000079,M0019,273.39,2026-01-08T21:14:27,refunded,bank_transfer,desktop,Berlin,1,17,2085,1,none,low
+txn_000080,M0030,1102.31,2026-09-15T04:14:27,completed,bank_transfer,tablet,Miami,5,30,1508,1,authorization,high
+txn_000081,M0015,412.63,2025-03-04T02:14:27,failed,card,tablet,Berlin,1,4,987,1,chargeback,low
+txn_000082,M0016,2022.48,2025-11-21T21:14:27,completed,wallet,mobile,Berlin,8,12,582,1,billing,high
+txn_000083,M0040,475.1,2024-11-28T09:14:27,pending,cash,mobile,New York,2,18,1746,0,none,low
+txn_000084,M0042,485.01,2025-09-17T19:14:27,failed,bank_transfer,desktop,London,4,11,802,0,none,medium
+txn_000085,M0037,484.36,2025-10-23T05:14:27,refunded,wallet,desktop,Toronto,1,3,898,0,refund,low
+txn_000086,M0012,114.25,2026-05-04T08:14:27,completed,card,tablet,New York,0,11,634,0,none,low
+txn_000087,M0008,184.26,2026-05-22T13:14:27,completed,card,mobile,Berlin,0,11,94,0,none,low
+txn_000088,M0043,982.24,2026-08-15T13:14:27,pending,bank_transfer,mobile,New York,1,18,1091,1,none,medium
+txn_000089,M0021,243.66,2025-07-02T10:14:27,failed,wallet,desktop,Los Angeles,1,14,472,1,none,low
+txn_000090,M0045,319.47,2025-01-17T23:14:27,completed,card,tablet,Toronto,2,11,1590,1,none,low
+txn_000091,M0021,481.24,2025-08-16T23:14:27,pending,cash,mobile,Miami,4,11,907,2,none,medium
+txn_000092,M0009,83.1,2026-06-22T13:14:27,pending,card,tablet,Toronto,1,3,403,0,refund,low
+txn_000093,M0037,337.65,2025-01-23T03:14:27,completed,wallet,desktop,Berlin,1,12,1762,0,none,low
+txn_000094,M0040,61.24,2025-07-16T19:14:27,refunded,card,tablet,Miami,2,12,500,1,none,low
+txn_000095,M0005,142.45,2026-05-05T18:14:27,completed,wallet,tablet,New York,1,11,1467,0,authorization,low
+txn_000096,M0037,269.0,2025-11-13T13:14:27,completed,card,desktop,Los Angeles,1,14,1888,1,duplicate,low
+txn_000097,M0018,311.98,2025-05-19T17:14:27,completed,wallet,tablet,Chicago,2,3,1144,1,none,low
+txn_000098,M0014,62.56,2025-08-20T17:14:27,completed,bank_transfer,desktop,Los Angeles,2,16,2188,1,chargeback,low
+txn_000099,M0033,606.27,2025-09-04T19:14:27,completed,bank_transfer,desktop,London,1,4,1078,3,chargeback,medium
+txn_000100,M0027,191.07,2025-02-19T00:14:27,completed,bank_transfer,desktop,London,1,18,219,2,billing,medium
+txn_000101,M0026,167.79,2026-06-13T05:14:27,completed,card,mobile,Miami,2,15,1512,0,none,low
+txn_000102,M0042,492.24,2026-03-15T01:14:27,completed,wallet,desktop,Chicago,2,6,1105,0,authorization,medium
+txn_000103,M0037,105.06,2024-12-24T21:14:27,completed,cash,tablet,Sydney,2,5,338,0,none,low
+txn_000104,M0018,493.37,2025-07-03T16:14:27,completed,card,mobile,Toronto,1,11,648,1,refund,low
+txn_000105,M0025,235.18,2026-06-28T17:14:27,completed,cash,tablet,Toronto,0,2,1540,1,refund,low
+txn_000106,M0029,4511.85,2025-05-04T08:14:27,refunded,card,mobile,Chicago,2,33,781,3,duplicate,high
+txn_000107,M0022,92.9,2025-12-14T00:14:27,completed,card,tablet,Seattle,0,15,1829,0,none,low
+txn_000108,M0022,54.5,2024-11-25T17:14:27,failed,card,tablet,Los Angeles,2,13,1193,1,none,low
+txn_000109,M0043,2068.32,2024-12-10T02:14:27,pending,card,tablet,London,8,13,357,3,duplicate,high
+txn_000110,M0009,16.97,2025-05-20T06:14:27,completed,wallet,desktop,Miami,1,6,907,1,none,low
+txn_000111,M0045,289.92,2026-04-25T07:14:27,completed,wallet,tablet,Berlin,1,25,749,1,billing,medium
+txn_000112,M0020,187.24,2025-06-27T05:14:27,completed,cash,desktop,Seattle,2,8,1849,1,none,low
+txn_000113,M0011,1078.3,2025-05-02T20:14:27,completed,wallet,tablet,Los Angeles,4,18,1635,2,none,medium
+txn_000114,M0049,207.66,2025-04-19T09:14:27,completed,wallet,mobile,Berlin,4,15,1195,0,none,medium
+txn_000115,M0033,1139.89,2026-09-01T23:14:27,completed,bank_transfer,desktop,London,8,10,919,4,billing,high
+txn_000116,M0031,2437.0,2026-05-03T08:14:27,completed,wallet,tablet,Berlin,2,25,415,6,duplicate,high
+txn_000117,M0028,10.58,2025-03-16T13:14:27,completed,card,mobile,Dallas,0,1,1078,0,none,low
+txn_000118,M0041,31.49,2025-05-05T17:14:27,completed,wallet,tablet,Los Angeles,1,15,287,0,none,low
+txn_000119,M0024,8.77,2024-11-14T10:14:27,completed,card,tablet,Toronto,1,8,2367,1,authorization,low
+txn_000120,M0002,494.26,2025-08-29T01:14:27,completed,bank_transfer,desktop,Seattle,2,1,1629,1,chargeback,low
+txn_000121,M0050,331.3,2025-10-17T16:14:27,completed,cash,tablet,Berlin,0,11,576,0,none,low
+txn_000122,M0020,407.26,2026-03-09T11:14:27,completed,cash,tablet,Berlin,0,15,181,1,authorization,low
+txn_000123,M0024,378.62,2025-10-25T04:14:27,completed,cash,mobile,Berlin,0,10,1492,0,none,low
+txn_000124,M0047,769.56,2025-04-16T04:14:27,pending,cash,desktop,London,2,19,1477,3,duplicate,medium
+txn_000125,M0039,412.59,2024-11-22T03:14:27,completed,cash,desktop,Berlin,2,10,1345,0,refund,low
+txn_000126,M0048,28.84,2024-12-16T00:14:27,completed,wallet,desktop,Los Angeles,1,14,1154,0,refund,low
+txn_000127,M0037,1259.19,2024-12-08T01:14:27,completed,card,tablet,Los Angeles,4,5,318,0,refund,medium
+txn_000128,M0042,1714.02,2025-04-05T01:14:27,completed,bank_transfer,desktop,Chicago,3,18,1622,0,billing,medium
+txn_000129,M0040,99.54,2026-01-05T14:14:27,completed,bank_transfer,tablet,Berlin,2,13,2330,0,none,low
+txn_000130,M0046,74.78,2024-10-31T02:14:27,completed,card,tablet,Toronto,0,15,737,1,none,low
+txn_000131,M0032,155.58,2026-03-08T08:14:27,completed,card,mobile,Toronto,0,6,1510,0,refund,low
+txn_000132,M0027,237.96,2025-05-26T20:14:27,completed,card,desktop,Seattle,2,5,383,0,none,low
+txn_000133,M0050,229.39,2025-03-13T16:14:27,completed,wallet,mobile,Toronto,2,17,1441,0,none,low
+txn_000134,M0034,615.85,2025-11-02T14:14:27,completed,bank_transfer,desktop,Miami,3,38,636,3,chargeback,high
+txn_000135,M0010,478.53,2026-04-09T18:14:27,refunded,wallet,tablet,Sydney,1,5,1270,0,none,low
+txn_000136,M0014,1136.63,2024-12-11T18:14:27,completed,cash,tablet,New York,1,30,118,0,chargeback,medium
+txn_000137,M0045,316.56,2025-08-10T03:14:27,completed,card,desktop,Berlin,1,10,2008,0,none,low
+txn_000138,M0024,236.51,2025-10-11T00:14:27,completed,card,mobile,Dallas,1,5,1310,1,none,low
+txn_000139,M0011,139.6,2025-08-31T17:14:27,completed,bank_transfer,tablet,Seattle,0,5,426,0,none,low
+txn_000140,M0016,86.4,2026-06-29T00:14:27,completed,wallet,tablet,Seattle,2,15,2072,1,none,low
+txn_000141,M0047,146.43,2025-07-15T08:14:27,failed,bank_transfer,mobile,Seattle,2,16,1200,0,none,low
+txn_000142,M0018,33.17,2025-04-30T22:14:27,pending,card,desktop,Chicago,2,7,1514,1,refund,low
+txn_000143,M0003,399.09,2025-04-26T00:14:27,completed,card,desktop,Seattle,1,18,1527,0,authorization,low
+txn_000144,M0040,992.48,2025-01-10T02:14:27,completed,bank_transfer,tablet,Seattle,2,23,1115,1,refund,medium
+txn_000145,M0038,258.78,2024-11-09T09:14:27,refunded,bank_transfer,tablet,New York,1,10,1975,0,none,low
+txn_000146,M0025,138.64,2024-12-23T13:14:27,completed,wallet,tablet,Dallas,2,8,240,1,duplicate,low
+txn_000147,M0027,474.52,2026-04-26T23:14:27,completed,cash,tablet,New York,0,7,107,1,none,low
+txn_000148,M0022,991.39,2026-04-04T22:14:27,failed,bank_transfer,tablet,Miami,3,25,1039,3,refund,medium
+txn_000149,M0045,102.59,2025-11-29T03:14:27,completed,cash,mobile,Berlin,0,9,2315,1,billing,low
+txn_000150,M0026,467.38,2025-03-22T00:14:27,failed,bank_transfer,desktop,Miami,2,9,1208,0,none,low
+txn_000151,M0018,478.01,2026-02-22T06:14:27,pending,bank_transfer,desktop,Chicago,0,12,1841,1,none,low
+txn_000152,M0046,296.72,2026-08-07T09:14:27,completed,cash,desktop,Los Angeles,0,2,2205,0,none,low
+txn_000153,M0004,278.77,2025-12-09T02:14:27,completed,card,tablet,Sydney,0,14,1978,1,none,low
+txn_000154,M0012,371.43,2026-08-23T00:14:27,pending,bank_transfer,desktop,New York,0,6,1741,0,none,low
+txn_000155,M0013,304.57,2026-05-14T20:14:27,completed,card,mobile,Los Angeles,1,10,1891,1,none,low
+txn_000156,M0012,1209.12,2025-02-24T15:14:27,pending,cash,mobile,Toronto,2,4,1568,2,none,medium
+txn_000157,M0016,205.21,2026-01-18T12:14:27,completed,cash,mobile,Seattle,0,6,605,1,none,low
+txn_000158,M0026,363.66,2026-05-30T22:14:27,completed,bank_transfer,tablet,Chicago,0,9,1502,0,refund,low
+txn_000159,M0024,470.79,2025-06-20T13:14:27,refunded,cash,tablet,Toronto,1,8,927,0,none,low
+txn_000160,M0008,4616.9,2025-09-24T10:14:27,failed,card,tablet,Toronto,5,20,345,5,refund,high
+txn_000161,M0006,272.04,2026-03-02T14:14:27,completed,cash,desktop,Berlin,0,11,2161,1,refund,low
+txn_000162,M0017,212.39,2025-11-17T13:14:27,completed,card,tablet,Dallas,2,2,2318,1,none,low
+txn_000163,M0027,30.28,2026-07-20T21:14:27,completed,wallet,desktop,London,1,3,2246,0,none,low
+txn_000164,M0023,446.54,2024-11-20T19:14:27,completed,card,desktop,Toronto,1,13,1568,0,none,low
+txn_000165,M0015,70.65,2025-03-20T23:14:27,completed,wallet,mobile,Seattle,0,1,123,1,none,low
+txn_000166,M0007,100.73,2026-09-13T05:14:27,completed,card,mobile,Sydney,2,4,161,1,none,low
+txn_000167,M0050,1585.32,2025-03-26T06:14:27,pending,card,desktop,Toronto,2,27,150,3,duplicate,medium
+txn_000168,M0020,1634.72,2024-11-21T20:14:27,completed,bank_transfer,desktop,Toronto,7,25,980,3,billing,high
+txn_000169,M0034,5314.37,2024-12-09T15:14:27,completed,bank_transfer,tablet,London,4,32,2040,1,none,high
+txn_000170,M0030,155.55,2025-11-25T14:14:27,completed,card,tablet,London,0,18,1969,0,none,low
+txn_000171,M0024,3476.53,2024-12-06T10:14:27,failed,card,tablet,Dallas,4,29,1004,3,chargeback,high
+txn_000172,M0014,193.57,2025-02-04T13:14:27,completed,cash,desktop,Seattle,2,2,328,0,none,low
+txn_000173,M0016,455.23,2025-01-18T14:14:27,completed,bank_transfer,mobile,London,0,7,510,1,none,low
+txn_000174,M0024,327.17,2025-06-06T02:14:27,failed,bank_transfer,mobile,New York,1,9,1503,1,none,low
+txn_000175,M0037,116.87,2026-03-13T02:14:27,completed,wallet,mobile,Toronto,0,1,1098,1,none,low
+txn_000176,M0011,1270.54,2024-12-10T13:14:27,completed,bank_transfer,desktop,Los Angeles,3,28,1742,3,none,medium
+txn_000177,M0027,940.37,2024-11-14T11:14:27,pending,wallet,tablet,Dallas,1,20,129,0,none,medium
+txn_000178,M0031,82.31,2024-12-14T15:14:27,failed,cash,desktop,New York,0,17,1897,1,refund,low
+txn_000179,M0012,210.38,2024-11-07T23:14:27,pending,card,desktop,Toronto,0,17,1155,1,chargeback,low
+txn_000180,M0030,102.43,2026-07-11T01:14:27,refunded,wallet,tablet,Dallas,2,9,1481,1,none,low
+txn_000181,M0001,415.41,2025-03-12T21:14:27,completed,wallet,desktop,Berlin,0,2,412,1,none,low
+txn_000182,M0005,1203.44,2025-02-25T21:14:27,completed,bank_transfer,tablet,Sydney,3,22,255,0,refund,medium
+txn_000183,M0037,421.32,2025-08-18T10:14:27,completed,wallet,tablet,London,3,4,484,1,none,medium
+txn_000184,M0023,1028.14,2026-07-10T20:14:27,pending,card,desktop,London,4,28,1574,1,none,medium
+txn_000185,M0036,45.4,2025-06-24T21:14:27,completed,cash,mobile,Los Angeles,2,13,1366,0,none,low
+txn_000186,M0025,1229.93,2026-07-16T10:14:27,completed,wallet,tablet,London,1,28,1326,2,none,medium
+txn_000187,M0028,60.42,2026-06-17T08:14:27,completed,cash,tablet,Toronto,0,10,1851,1,none,low
+txn_000188,M0027,58.82,2025-11-01T00:14:27,completed,cash,desktop,Toronto,0,12,2300,0,none,low
+txn_000189,M0011,5875.59,2025-12-28T21:14:27,completed,cash,mobile,London,4,29,704,2,chargeback,high
+txn_000190,M0020,393.07,2026-03-12T22:14:27,completed,card,mobile,Seattle,1,9,1040,1,none,low
+txn_000191,M0021,758.22,2024-12-01T17:14:27,completed,wallet,mobile,Seattle,3,18,745,3,none,medium
+txn_000192,M0037,203.93,2025-12-16T00:14:27,completed,wallet,tablet,Toronto,1,10,2041,0,none,low
+txn_000193,M0009,385.67,2026-07-20T23:14:27,completed,bank_transfer,desktop,Miami,0,15,888,1,none,low
+txn_000194,M0045,1321.6,2025-03-30T20:14:27,failed,cash,tablet,New York,4,6,979,3,billing,medium
+txn_000195,M0003,724.01,2025-10-01T07:14:27,completed,cash,mobile,London,1,7,1634,1,none,medium
+txn_000196,M0038,56.51,2025-08-24T22:14:27,pending,wallet,mobile,New York,0,17,2154,0,none,low
+txn_000197,M0023,153.35,2025-06-20T06:14:27,completed,cash,desktop,Berlin,0,4,610,1,none,low
+txn_000198,M0011,880.11,2025-10-12T16:14:27,completed,wallet,tablet,Los Angeles,1,13,151,0,chargeback,medium
+txn_000199,M0026,170.85,2026-03-22T16:14:27,completed,card,tablet,Sydney,1,15,979,1,none,low
+txn_000200,M0035,875.29,2026-07-26T18:14:27,completed,wallet,mobile,Seattle,4,16,69,1,refund,medium
+txn_000201,M0023,64.07,2025-01-12T00:14:27,completed,bank_transfer,mobile,Sydney,2,16,2191,1,none,low
+txn_000202,M0045,339.41,2025-11-21T09:14:27,completed,wallet,tablet,London,1,3,578,1,refund,low
+txn_000203,M0032,75.83,2024-12-08T07:14:27,completed,bank_transfer,desktop,Los Angeles,1,14,790,1,none,low
+txn_000204,M0032,229.89,2025-08-31T19:14:27,completed,cash,tablet,Berlin,0,12,69,1,duplicate,low
+txn_000205,M0015,421.23,2026-02-16T03:14:27,completed,bank_transfer,desktop,Berlin,1,6,368,0,none,low
+txn_000206,M0024,388.09,2025-12-28T19:14:27,pending,card,tablet,Berlin,1,18,2122,0,none,low
+txn_000207,M0008,494.97,2025-10-08T10:14:27,completed,wallet,desktop,Sydney,0,8,1249,0,none,low
+txn_000208,M0035,1566.56,2026-03-02T11:14:27,completed,bank_transfer,tablet,Toronto,4,9,1321,1,none,medium
+txn_000209,M0009,489.67,2025-04-20T15:14:27,pending,cash,desktop,Miami,1,10,2375,1,none,low
+txn_000210,M0037,333.17,2024-11-06T00:14:27,completed,bank_transfer,tablet,London,2,11,359,2,none,medium
+txn_000211,M0021,45.15,2025-09-16T22:14:27,refunded,card,tablet,Chicago,0,13,2141,1,none,low
+txn_000212,M0021,890.19,2025-07-17T06:14:27,completed,bank_transfer,mobile,Toronto,3,6,1689,3,refund,medium
+txn_000213,M0011,286.54,2025-06-16T12:14:27,completed,cash,mobile,New York,1,11,228,0,refund,low
+txn_000214,M0043,2738.46,2025-09-25T04:14:27,completed,wallet,desktop,London,4,24,661,3,chargeback,high
+txn_000215,M0015,365.19,2025-05-29T10:14:27,completed,cash,desktop,New York,0,14,403,0,chargeback,low
+txn_000216,M0007,1492.74,2025-09-02T10:14:27,pending,card,mobile,Seattle,4,26,330,3,chargeback,medium
+txn_000217,M0011,350.38,2025-03-02T12:14:27,completed,cash,mobile,Dallas,2,24,1446,1,chargeback,medium
+txn_000218,M0025,82.48,2026-05-09T09:14:27,completed,bank_transfer,mobile,Seattle,1,15,919,0,none,low
+txn_000219,M0014,536.28,2026-09-01T15:14:27,failed,wallet,tablet,London,1,11,1193,2,none,medium
+txn_000220,M0001,34.85,2024-12-14T17:14:27,completed,bank_transfer,mobile,Los Angeles,0,16,1610,0,billing,low
+txn_000221,M0001,420.77,2026-07-17T12:14:27,completed,bank_transfer,desktop,New York,1,12,2267,0,none,low
+txn_000222,M0006,5707.48,2025-07-30T23:14:27,completed,wallet,mobile,Chicago,8,37,1183,6,authorization,high
+txn_000223,M0005,259.56,2024-12-18T16:14:27,completed,bank_transfer,tablet,London,0,5,2227,1,none,low
+txn_000224,M0043,1542.07,2025-01-10T17:14:27,completed,wallet,desktop,New York,1,11,236,3,chargeback,medium
+txn_000225,M0018,1298.52,2026-05-22T13:14:27,pending,card,desktop,Seattle,2,19,770,2,chargeback,medium
+txn_000226,M0037,576.93,2025-04-24T01:14:27,completed,wallet,mobile,Los Angeles,1,12,1518,0,authorization,medium
+txn_000227,M0024,58.63,2026-09-17T05:14:27,completed,cash,desktop,Los Angeles,2,4,965,0,chargeback,low
+txn_000228,M0037,5187.67,2025-11-06T04:14:27,pending,bank_transfer,desktop,Toronto,8,19,1328,2,refund,high
+txn_000229,M0050,208.49,2026-07-20T22:14:27,failed,bank_transfer,mobile,Chicago,2,29,1116,0,none,medium
+txn_000230,M0032,11.92,2026-01-23T22:14:27,completed,wallet,tablet,Toronto,0,10,2339,1,none,low
+txn_000231,M0022,531.81,2024-12-16T14:14:27,failed,card,tablet,London,1,17,108,1,authorization,medium
+txn_000232,M0006,1341.72,2026-07-30T08:14:27,completed,card,desktop,Toronto,1,10,1145,1,duplicate,medium
+txn_000233,M0037,448.62,2024-12-16T00:14:27,completed,card,mobile,Los Angeles,1,3,2408,0,none,low
+txn_000234,M0009,136.41,2026-02-02T10:14:27,refunded,card,desktop,Chicago,1,13,1366,1,none,low
+txn_000235,M0017,237.3,2026-02-28T22:14:27,completed,card,desktop,Los Angeles,1,4,2225,1,none,low
+txn_000236,M0004,631.08,2026-01-18T01:14:27,completed,bank_transfer,mobile,Los Angeles,1,10,1771,2,chargeback,medium
+txn_000237,M0004,206.96,2026-06-17T08:14:27,completed,wallet,desktop,Dallas,1,18,2283,0,refund,low
+txn_000238,M0013,745.36,2026-07-15T12:14:27,refunded,cash,desktop,Chicago,1,22,1260,2,none,medium
+txn_000239,M0026,5027.33,2025-02-18T23:14:27,pending,cash,desktop,London,7,12,184,4,chargeback,high
+txn_000240,M0040,410.32,2026-04-30T11:14:27,completed,wallet,tablet,Miami,2,9,623,2,duplicate,medium
+txn_000241,M0034,442.33,2025-07-27T06:14:27,completed,wallet,tablet,Toronto,1,2,389,1,none,low
+txn_000242,M0018,1782.2,2025-02-26T20:14:27,completed,wallet,desktop,Seattle,3,19,1175,3,duplicate,medium
+txn_000243,M0043,22.42,2026-02-03T07:14:27,completed,wallet,mobile,Toronto,1,2,1962,1,none,low
+txn_000244,M0021,1661.0,2026-04-05T07:14:27,completed,bank_transfer,tablet,New York,1,28,509,3,duplicate,medium
+txn_000245,M0004,710.83,2026-04-02T21:14:27,completed,wallet,tablet,Dallas,2,22,445,3,authorization,medium
+txn_000246,M0038,243.17,2025-11-02T11:14:27,completed,wallet,desktop,Toronto,1,7,564,1,none,low
+txn_000247,M0011,1733.74,2025-10-20T03:14:27,completed,cash,tablet,Berlin,3,26,1416,3,billing,medium
+txn_000248,M0001,93.71,2025-12-02T08:14:27,completed,cash,tablet,New York,2,12,944,0,none,low
+txn_000249,M0016,164.56,2026-05-08T02:14:27,pending,bank_transfer,mobile,Los Angeles,2,8,2346,0,none,low
+txn_000250,M0017,481.84,2026-01-16T14:14:27,completed,card,tablet,New York,2,11,1859,0,none,low
+txn_000251,M0031,223.6,2025-10-04T19:14:27,completed,wallet,desktop,Berlin,1,6,1725,1,none,low
+txn_000252,M0025,424.12,2026-07-16T02:14:27,completed,wallet,tablet,Chicago,1,1,1335,1,none,low
+txn_000253,M0028,449.88,2025-07-14T16:14:27,completed,wallet,desktop,Chicago,0,11,2463,1,none,low
+txn_000254,M0026,487.4,2025-11-29T05:14:27,completed,cash,desktop,New York,1,18,2242,1,none,low
+txn_000255,M0006,218.38,2026-04-07T16:14:27,completed,cash,desktop,Miami,1,16,847,0,chargeback,low
+txn_000256,M0003,911.19,2025-09-04T01:14:27,completed,bank_transfer,mobile,Berlin,3,6,1374,3,refund,medium
+txn_000257,M0049,419.84,2025-10-11T19:14:27,completed,wallet,tablet,New York,2,2,649,0,refund,low
+txn_000258,M0026,1494.92,2026-01-30T21:14:27,completed,card,tablet,Sydney,4,21,1467,3,billing,medium
+txn_000259,M0009,4862.57,2026-04-11T06:14:27,pending,card,mobile,Chicago,4,12,1849,2,billing,high
+txn_000260,M0026,2781.74,2026-07-23T10:14:27,completed,bank_transfer,mobile,Toronto,4,21,1319,6,billing,high
+txn_000261,M0049,437.75,2026-04-30T18:14:27,completed,card,desktop,Sydney,2,17,1748,0,none,low
+txn_000262,M0012,1440.05,2025-02-20T17:14:27,completed,bank_transfer,mobile,Los Angeles,3,17,600,3,none,medium
+txn_000263,M0018,342.96,2026-08-09T13:14:27,completed,bank_transfer,desktop,Seattle,1,2,1651,1,none,low
+txn_000264,M0048,629.13,2026-02-08T08:14:27,completed,cash,mobile,Miami,3,30,1066,0,none,medium
+txn_000265,M0034,1136.36,2025-08-08T13:14:27,completed,bank_transfer,desktop,Toronto,1,10,964,1,none,medium
+txn_000266,M0030,230.24,2026-03-08T11:14:27,completed,card,mobile,Dallas,4,8,1658,0,chargeback,medium
+txn_000267,M0031,413.17,2025-05-16T17:14:27,completed,bank_transfer,mobile,Los Angeles,2,13,537,0,billing,low
+txn_000268,M0042,554.55,2025-02-21T06:14:27,failed,wallet,tablet,Dallas,1,13,116,3,chargeback,medium
+txn_000269,M0039,209.48,2025-01-22T12:14:27,completed,bank_transfer,tablet,Miami,0,1,1971,0,none,low
+txn_000270,M0026,193.23,2024-11-04T20:14:27,pending,card,desktop,Toronto,1,15,1062,0,none,low
+txn_000271,M0018,5808.97,2025-05-24T10:14:27,completed,bank_transfer,mobile,Miami,7,40,1167,3,authorization,high
+txn_000272,M0044,1719.68,2025-01-23T00:14:27,completed,wallet,tablet,New York,3,10,367,1,none,medium
+txn_000273,M0013,1795.75,2025-02-08T14:14:27,refunded,bank_transfer,tablet,Dallas,3,17,888,3,none,medium
+txn_000274,M0007,1192.37,2024-11-24T19:14:27,completed,cash,desktop,Miami,4,25,794,2,none,medium
+txn_000275,M0027,1059.17,2026-02-12T13:14:27,failed,bank_transfer,mobile,Miami,2,25,747,0,refund,medium
+txn_000276,M0044,236.17,2026-03-13T20:14:27,completed,cash,tablet,Miami,0,16,249,0,none,low
+txn_000277,M0046,436.46,2025-02-22T22:14:27,completed,wallet,desktop,Berlin,0,5,850,1,none,low
+txn_000278,M0032,493.43,2026-04-09T18:14:27,pending,card,desktop,Sydney,1,2,49,1,none,low
+txn_000279,M0001,219.27,2026-03-08T13:14:27,completed,bank_transfer,tablet,Dallas,1,16,1600,0,chargeback,low
+txn_000280,M0020,10.03,2026-06-16T00:14:27,completed,wallet,desktop,New York,2,8,956,1,none,low
+txn_000281,M0032,151.09,2026-05-15T02:14:27,refunded,bank_transfer,desktop,Los Angeles,2,17,2472,1,none,low
+txn_000282,M0038,5533.77,2026-05-18T06:14:27,pending,wallet,desktop,Seattle,8,6,945,2,authorization,high
+txn_000283,M0002,1450.77,2026-08-10T15:14:27,completed,card,tablet,Chicago,4,24,583,0,billing,medium
+txn_000284,M0043,195.08,2024-12-23T12:14:27,completed,card,tablet,Toronto,2,9,1973,0,authorization,low
+txn_000285,M0013,305.97,2026-06-12T21:14:27,completed,bank_transfer,tablet,Dallas,0,14,459,0,none,low
+txn_000286,M0001,209.6,2025-05-25T02:14:27,completed,card,desktop,Sydney,0,2,2275,1,none,low
+txn_000287,M0030,370.56,2026-06-18T04:14:27,completed,bank_transfer,mobile,Berlin,1,28,1107,0,none,medium
+txn_000288,M0003,408.08,2026-06-03T09:14:27,failed,card,desktop,Los Angeles,0,10,1505,1,none,low
+txn_000289,M0030,448.11,2026-03-26T09:14:27,completed,bank_transfer,mobile,Berlin,2,9,410,1,none,low
+txn_000290,M0038,1210.06,2026-04-19T09:14:27,completed,cash,tablet,Berlin,2,7,331,0,none,medium
+txn_000291,M0005,194.84,2026-06-05T23:14:27,completed,bank_transfer,tablet,Seattle,1,1,565,1,none,low
+txn_000292,M0044,435.22,2026-01-17T21:14:27,completed,cash,desktop,Toronto,2,8,1415,0,none,low
+txn_000293,M0021,1149.7,2026-04-13T10:14:27,pending,wallet,mobile,Miami,1,24,381,3,none,medium
+txn_000294,M0032,117.57,2025-07-01T18:14:27,completed,cash,mobile,Chicago,2,13,1681,0,refund,low
+txn_000295,M0039,4547.86,2025-03-16T12:14:27,pending,bank_transfer,tablet,Toronto,2,11,1662,4,chargeback,high
+txn_000296,M0039,338.37,2025-10-24T19:14:27,pending,cash,tablet,Seattle,1,12,252,0,none,low
+txn_000297,M0045,311.56,2025-12-04T19:14:27,completed,card,desktop,Los Angeles,2,4,759,2,none,medium
+txn_000298,M0026,412.34,2026-03-21T09:14:27,failed,wallet,mobile,Dallas,2,14,468,1,none,low
+txn_000299,M0033,301.05,2025-06-24T22:14:27,completed,wallet,mobile,New York,4,5,1356,0,none,medium
+txn_000300,M0007,31.9,2026-04-04T13:14:27,pending,cash,tablet,Sydney,1,16,2112,0,none,low
+txn_000301,M0009,166.35,2025-10-13T03:14:27,completed,wallet,mobile,Sydney,1,14,1046,1,none,low
+txn_000302,M0014,1377.36,2025-03-11T16:14:27,completed,bank_transfer,tablet,Seattle,3,30,1496,2,none,medium
+txn_000303,M0037,1056.23,2025-10-03T19:14:27,completed,cash,tablet,Toronto,4,37,1330,6,chargeback,high
+txn_000304,M0018,424.87,2026-08-05T15:14:27,completed,wallet,mobile,Miami,0,17,466,0,none,low
+txn_000305,M0044,38.52,2025-06-23T09:14:27,completed,wallet,tablet,Toronto,1,7,2246,0,none,low
+txn_000306,M0048,259.37,2025-11-12T19:14:27,completed,bank_transfer,desktop,Sydney,2,10,222,1,none,low
+txn_000307,M0050,1565.55,2025-03-18T13:14:27,completed,wallet,mobile,Berlin,4,30,521,2,none,medium
+txn_000308,M0009,343.87,2025-07-18T04:14:27,completed,wallet,tablet,Miami,0,6,2134,0,none,low
+txn_000309,M0020,237.44,2024-12-27T17:14:27,failed,cash,tablet,Toronto,0,2,659,1,none,low
+txn_000310,M0035,393.74,2025-04-30T07:14:27,completed,cash,desktop,Seattle,1,17,930,0,none,low
+txn_000311,M0036,112.97,2025-01-03T20:14:27,completed,card,desktop,Seattle,1,11,1507,1,authorization,low
+txn_000312,M0047,453.01,2026-06-05T00:14:27,completed,bank_transfer,desktop,Toronto,2,8,193,1,none,low
+txn_000313,M0007,749.93,2026-03-16T02:14:27,completed,wallet,tablet,Toronto,4,19,149,2,none,medium
+txn_000314,M0005,40.21,2025-07-10T16:14:27,pending,wallet,desktop,Berlin,2,7,1767,0,authorization,low
+txn_000315,M0027,183.65,2025-02-18T05:14:27,failed,cash,mobile,London,1,5,424,2,billing,medium
+txn_000316,M0038,16.31,2025-01-04T10:14:27,pending,card,tablet,Chicago,2,4,2220,0,none,low
+txn_000317,M0043,255.4,2025-07-08T00:14:27,completed,card,mobile,Los Angeles,1,10,384,1,none,low
+txn_000318,M0001,75.1,2024-12-05T01:14:27,refunded,wallet,desktop,New York,1,18,1238,0,none,low
+txn_000319,M0042,301.55,2025-10-12T06:14:27,completed,wallet,desktop,Los Angeles,2,18,378,1,authorization,low
+txn_000320,M0005,418.7,2025-03-15T22:14:27,completed,bank_transfer,tablet,Chicago,0,4,772,0,none,low
+txn_000321,M0040,105.13,2024-11-27T05:14:27,completed,card,desktop,Seattle,2,16,1385,1,refund,low
+txn_000322,M0011,169.55,2025-09-21T02:14:27,refunded,card,mobile,Dallas,2,10,2422,0,none,low
+txn_000323,M0023,1316.49,2025-10-24T21:14:27,completed,bank_transfer,mobile,Toronto,4,12,1780,2,chargeback,medium
+txn_000324,M0002,325.61,2024-12-27T10:14:27,pending,card,tablet,Sydney,0,9,603,0,none,low
+txn_000325,M0050,298.3,2026-04-30T01:14:27,completed,bank_transfer,desktop,Berlin,0,18,1097,1,none,low
+txn_000326,M0033,52.55,2025-01-08T15:14:27,completed,wallet,mobile,Los Angeles,1,17,73,0,none,low
+txn_000327,M0024,474.77,2025-05-18T05:14:27,completed,wallet,desktop,Dallas,2,5,2010,1,chargeback,low
+txn_000328,M0034,397.4,2024-12-04T02:14:27,completed,bank_transfer,tablet,Miami,1,16,1892,0,chargeback,low
+txn_000329,M0023,288.52,2025-09-09T05:14:27,completed,bank_transfer,mobile,Berlin,1,13,1526,0,none,low
+txn_000330,M0012,131.08,2024-12-10T04:14:27,completed,wallet,mobile,Sydney,2,18,399,1,chargeback,medium
+txn_000331,M0014,318.79,2025-05-23T15:14:27,completed,wallet,tablet,London,2,17,1721,2,none,medium
+txn_000332,M0012,29.23,2026-05-02T11:14:27,completed,cash,tablet,Sydney,2,6,581,0,none,low
+txn_000333,M0027,440.23,2025-06-03T21:14:27,completed,wallet,tablet,Los Angeles,2,10,381,0,none,low
+txn_000334,M0013,259.32,2025-08-31T08:14:27,completed,cash,desktop,Sydney,0,11,1887,0,billing,low
+txn_000335,M0035,242.13,2024-11-23T08:14:27,failed,card,tablet,London,2,2,2206,0,refund,low
+txn_000336,M0048,190.23,2025-05-24T00:14:27,completed,card,mobile,Los Angeles,0,17,1787,0,none,low
+txn_000337,M0001,384.8,2026-09-23T14:14:27,pending,card,tablet,New York,0,10,2480,1,none,low
+txn_000338,M0035,109.07,2024-11-30T18:14:27,completed,cash,tablet,Seattle,1,14,1513,0,duplicate,low
+txn_000339,M0020,495.96,2025-03-05T19:14:27,completed,bank_transfer,tablet,London,1,7,1722,1,duplicate,low
+txn_000340,M0026,1556.4,2026-04-17T09:14:27,completed,bank_transfer,tablet,Sydney,1,27,530,3,none,medium
+txn_000341,M0028,1307.41,2026-05-03T21:14:27,failed,card,desktop,Miami,2,16,1362,0,none,medium
+txn_000342,M0012,47.38,2025-01-26T11:14:27,refunded,cash,mobile,New York,0,13,1671,1,none,low
+txn_000343,M0040,331.19,2025-04-24T20:14:27,completed,wallet,tablet,New York,2,10,827,0,none,low
+txn_000344,M0034,330.27,2025-08-21T00:14:27,completed,card,tablet,Chicago,0,3,1160,1,none,low
+txn_000345,M0037,3432.68,2026-03-13T22:14:27,failed,card,mobile,Los Angeles,7,27,1142,2,duplicate,high
+txn_000346,M0037,60.38,2025-04-22T04:14:27,failed,bank_transfer,tablet,Berlin,0,17,1235,1,none,low
+txn_000347,M0017,3510.06,2025-02-06T12:14:27,completed,card,mobile,Dallas,5,26,1889,6,refund,high
+txn_000348,M0026,506.28,2026-01-03T05:14:27,completed,bank_transfer,desktop,Toronto,3,17,783,0,none,medium
+txn_000349,M0013,3016.37,2024-10-30T06:14:27,completed,wallet,tablet,Dallas,7,18,1112,2,billing,high
+txn_000350,M0044,467.39,2026-06-12T09:14:27,failed,cash,tablet,New York,2,30,571,2,chargeback,medium
+txn_000351,M0049,1029.68,2025-02-18T04:14:27,completed,bank_transfer,mobile,Dallas,1,19,820,2,authorization,medium
+txn_000352,M0030,335.45,2025-08-21T15:14:27,pending,card,tablet,Toronto,4,19,1167,0,authorization,medium
+txn_000353,M0017,347.09,2025-01-10T04:14:27,completed,wallet,mobile,Berlin,0,7,1584,0,none,low
+txn_000354,M0018,2255.65,2025-09-13T01:14:27,failed,cash,desktop,Sydney,4,36,1746,2,refund,high
+txn_000355,M0048,291.34,2025-09-04T06:14:27,completed,wallet,mobile,New York,0,4,1135,0,none,low
+txn_000356,M0037,253.8,2025-11-26T04:14:27,completed,card,mobile,Chicago,2,17,2217,1,none,low
+txn_000357,M0036,220.86,2025-10-22T04:14:27,completed,bank_transfer,mobile,New York,3,19,1778,0,duplicate,medium
+txn_000358,M0033,180.74,2025-12-12T01:14:27,completed,cash,tablet,Berlin,2,7,2392,0,none,low
+txn_000359,M0040,760.2,2024-12-13T02:14:27,completed,cash,desktop,Chicago,3,18,1353,1,none,medium
+txn_000360,M0034,120.28,2025-07-01T01:14:27,pending,cash,mobile,Los Angeles,1,10,1125,1,none,low
+txn_000361,M0031,19.37,2025-08-19T09:14:27,completed,card,desktop,London,2,8,1060,0,authorization,low
+txn_000362,M0048,498.04,2025-08-26T03:14:27,completed,bank_transfer,mobile,Los Angeles,0,9,666,0,none,low
+txn_000363,M0036,420.55,2025-06-07T19:14:27,failed,cash,desktop,Toronto,0,2,1491,1,none,low
+txn_000364,M0006,302.01,2025-05-23T19:14:27,completed,cash,mobile,Seattle,2,14,2174,1,none,low
+txn_000365,M0032,84.61,2025-06-05T19:14:27,completed,cash,mobile,New York,0,1,2173,0,none,low
+txn_000366,M0011,1460.58,2025-03-03T23:14:27,completed,cash,mobile,Dallas,2,29,74,2,refund,medium
+txn_000367,M0005,215.74,2025-04-03T04:14:27,completed,wallet,desktop,Miami,0,17,1143,1,none,low
+txn_000368,M0002,232.03,2026-04-27T11:14:27,refunded,wallet,desktop,Miami,1,9,2045,0,none,low
+txn_000369,M0020,359.88,2025-05-12T06:14:27,completed,cash,mobile,Berlin,2,1,983,0,duplicate,low
+txn_000370,M0012,173.32,2025-08-24T10:14:27,completed,wallet,mobile,London,1,30,1597,1,chargeback,medium
+txn_000371,M0050,324.9,2026-08-26T06:14:27,completed,card,tablet,Dallas,2,16,1639,3,refund,medium
+txn_000372,M0031,343.27,2025-03-15T20:14:27,completed,bank_transfer,desktop,Seattle,1,11,679,0,none,low
+txn_000373,M0026,1570.94,2026-04-11T04:14:27,completed,wallet,desktop,New York,2,7,543,3,refund,medium
+txn_000374,M0022,347.85,2025-05-06T10:14:27,completed,card,desktop,Seattle,2,5,1551,0,billing,low
+txn_000375,M0029,353.05,2025-03-06T16:14:27,pending,wallet,desktop,London,0,5,2028,0,none,low
+txn_000376,M0035,74.29,2025-05-16T06:14:27,completed,bank_transfer,mobile,Berlin,0,16,1822,1,none,low
+txn_000377,M0001,417.02,2026-01-02T19:14:27,completed,cash,tablet,Los Angeles,2,6,312,0,none,low
+txn_000378,M0025,1161.15,2026-07-26T15:14:27,refunded,wallet,tablet,Berlin,3,28,1330,1,refund,medium
+txn_000379,M0009,378.94,2025-04-11T15:14:27,completed,wallet,desktop,Dallas,3,14,899,2,chargeback,medium
+txn_000380,M0001,102.28,2026-02-14T17:14:27,completed,wallet,tablet,Berlin,0,13,2036,1,chargeback,low
+txn_000381,M0004,5042.84,2025-07-31T01:14:27,pending,bank_transfer,tablet,New York,9,8,1488,5,authorization,high
+txn_000382,M0013,1521.89,2026-02-04T19:14:27,completed,wallet,tablet,Los Angeles,1,10,1123,0,chargeback,medium
+txn_000383,M0011,282.61,2024-11-16T23:14:27,failed,wallet,tablet,London,2,4,2391,1,none,low
+txn_000384,M0041,331.51,2025-11-01T01:14:27,completed,cash,tablet,Seattle,2,15,1473,1,none,low
+txn_000385,M0001,285.07,2025-06-22T22:14:27,refunded,card,mobile,Sydney,0,13,2283,1,none,low
+txn_000386,M0045,74.46,2025-11-11T12:14:27,pending,bank_transfer,tablet,Toronto,1,1,1260,0,authorization,low
+txn_000387,M0038,463.55,2026-05-11T04:14:27,completed,wallet,desktop,Miami,0,4,184,1,none,low
+txn_000388,M0045,274.4,2025-05-23T07:14:27,completed,card,tablet,Miami,4,22,505,0,none,medium
+txn_000389,M0008,405.7,2025-07-11T23:14:27,failed,wallet,tablet,Sydney,1,3,259,1,none,low
+txn_000390,M0033,3913.16,2025-03-25T18:14:27,completed,wallet,desktop,New York,8,8,1258,5,chargeback,high
+txn_000391,M0022,1795.58,2025-12-07T00:14:27,completed,card,mobile,Sydney,4,28,1278,0,refund,medium
+txn_000392,M0013,1040.9,2026-05-19T08:14:27,completed,cash,mobile,Sydney,3,6,876,3,none,medium
+txn_000393,M0037,311.07,2025-07-16T02:14:27,completed,card,desktop,London,2,17,1038,0,refund,low
+txn_000394,M0029,179.37,2026-04-09T01:14:27,completed,wallet,mobile,New York,1,12,2462,0,none,low
+txn_000395,M0019,1630.89,2026-01-23T17:14:27,failed,card,mobile,Chicago,7,14,361,1,authorization,high
+txn_000396,M0040,239.83,2025-04-12T04:14:27,completed,wallet,tablet,New York,1,7,2233,0,authorization,low
+txn_000397,M0004,453.77,2026-03-07T14:14:27,completed,cash,tablet,New York,2,2,1076,0,refund,low
+txn_000398,M0025,332.9,2024-12-04T00:14:27,completed,card,mobile,Berlin,2,12,471,0,none,low
+txn_000399,M0034,1013.02,2026-09-07T11:14:27,completed,bank_transfer,mobile,Berlin,2,10,1085,3,billing,medium
+txn_000400,M0041,85.25,2025-05-04T04:14:27,pending,bank_transfer,mobile,New York,1,12,1485,1,billing,low
+txn_000401,M0044,5709.96,2026-07-01T13:14:27,completed,wallet,mobile,Dallas,5,14,1409,4,authorization,high
+txn_000402,M0013,217.82,2026-05-10T18:14:27,completed,wallet,mobile,Toronto,1,11,1869,0,authorization,low
+txn_000403,M0010,2751.37,2026-05-31T07:14:27,completed,card,mobile,London,4,15,1310,1,duplicate,high
+txn_000404,M0039,2029.08,2026-09-02T17:14:27,completed,wallet,tablet,Dallas,6,14,779,1,chargeback,high
+txn_000405,M0032,20.83,2025-09-12T07:14:27,failed,cash,desktop,Los Angeles,0,16,579,1,none,low
+txn_000406,M0029,23.86,2026-03-06T06:14:27,completed,cash,tablet,Seattle,0,9,1721,0,none,low
+txn_000407,M0040,1611.15,2025-09-04T13:14:27,completed,card,tablet,Chicago,4,16,1649,0,billing,medium
+txn_000408,M0049,414.89,2026-08-19T19:14:27,completed,card,desktop,Miami,0,8,2154,1,none,low
+txn_000409,M0010,443.12,2026-08-04T14:14:27,completed,cash,tablet,Berlin,1,15,711,1,none,low
+txn_000410,M0038,254.32,2025-06-25T12:14:27,completed,wallet,mobile,Chicago,0,18,584,1,none,low
+txn_000411,M0034,348.32,2025-06-25T16:14:27,completed,cash,tablet,Toronto,2,6,536,0,refund,low
+txn_000412,M0011,86.67,2025-02-26T15:14:27,failed,wallet,desktop,New York,2,13,209,0,none,low
+txn_000413,M0017,160.28,2026-03-06T12:14:27,completed,card,mobile,Berlin,1,10,770,0,none,low
+txn_000414,M0029,1033.08,2024-11-22T21:14:27,completed,card,tablet,Sydney,1,23,1070,1,refund,medium
+txn_000415,M0010,442.03,2026-08-03T16:14:27,completed,card,tablet,Sydney,1,18,880,0,authorization,low
+txn_000416,M0043,621.38,2026-04-16T15:14:27,completed,wallet,mobile,Sydney,1,5,283,3,none,medium
+txn_000417,M0031,25.63,2025-07-18T19:14:27,completed,wallet,desktop,Miami,1,11,1539,1,none,low
+txn_000418,M0031,211.57,2024-12-23T20:14:27,refunded,bank_transfer,mobile,Sydney,0,7,268,0,none,low
+txn_000419,M0012,556.23,2024-12-20T21:14:27,completed,wallet,tablet,Miami,3,8,1318,3,authorization,medium
+txn_000420,M0022,309.01,2025-01-06T23:14:27,completed,bank_transfer,tablet,Dallas,2,34,493,6,authorization,high
+txn_000421,M0008,106.98,2025-03-15T02:14:27,pending,bank_transfer,mobile,London,1,9,307,1,none,low
+txn_000422,M0031,1154.87,2025-10-17T15:14:27,completed,card,tablet,Los Angeles,1,30,419,1,duplicate,medium
+txn_000423,M0047,316.58,2026-08-02T20:14:27,completed,bank_transfer,tablet,Toronto,2,11,1924,1,none,low
+txn_000424,M0041,292.08,2026-08-29T02:14:27,refunded,wallet,tablet,Sydney,1,12,301,0,none,low
+txn_000425,M0020,300.83,2025-05-09T05:14:27,completed,wallet,tablet,Miami,1,11,159,1,none,low
+txn_000426,M0022,192.11,2025-05-22T20:14:27,completed,cash,tablet,Toronto,0,7,409,1,none,low
+txn_000427,M0034,169.05,2025-06-16T00:14:27,completed,card,desktop,Miami,0,17,573,0,none,low
+txn_000428,M0037,4216.2,2024-11-23T13:14:27,completed,bank_transfer,tablet,Dallas,3,26,1922,1,chargeback,high
+txn_000429,M0008,102.73,2025-12-24T08:14:27,completed,card,tablet,Toronto,1,18,1337,1,none,low
+txn_000430,M0005,109.64,2025-12-12T18:14:27,completed,bank_transfer,tablet,Seattle,1,18,1334,1,duplicate,low
+txn_000431,M0046,32.96,2026-07-02T23:14:27,completed,cash,tablet,Seattle,0,16,236,0,none,low
+txn_000432,M0030,410.18,2026-06-25T14:14:27,completed,bank_transfer,tablet,Berlin,2,18,351,1,none,low
+txn_000433,M0021,474.14,2024-11-17T02:14:27,pending,cash,mobile,New York,0,9,1518,1,authorization,low
+txn_000434,M0007,63.54,2025-01-18T18:14:27,completed,cash,tablet,Chicago,1,15,729,1,none,low
+txn_000435,M0011,327.53,2026-01-27T17:14:27,completed,cash,mobile,Chicago,1,18,1918,1,none,low
+txn_000436,M0005,408.45,2026-01-31T07:14:27,completed,cash,desktop,Sydney,2,14,1813,1,none,low
+txn_000437,M0039,168.09,2026-07-19T17:14:27,completed,cash,mobile,Berlin,0,15,751,1,none,low
+txn_000438,M0019,38.25,2024-11-22T08:14:27,completed,cash,tablet,Sydney,0,5,2408,0,none,low
+txn_000439,M0023,109.19,2025-07-10T14:14:27,refunded,card,tablet,New York,1,10,2365,1,none,low
+txn_000440,M0023,259.13,2026-08-06T12:14:27,completed,card,mobile,New York,0,10,285,1,none,low
+txn_000441,M0031,353.49,2025-03-20T06:14:27,completed,wallet,desktop,Toronto,1,11,1597,1,none,low
+txn_000442,M0047,462.85,2026-07-17T16:14:27,completed,cash,tablet,London,1,5,1211,0,duplicate,low
+txn_000443,M0033,1073.92,2025-07-20T17:14:27,completed,cash,tablet,Berlin,4,31,1877,6,duplicate,high
+txn_000444,M0027,119.06,2026-01-29T14:14:27,completed,bank_transfer,desktop,New York,1,1,2397,1,none,low
+txn_000445,M0006,354.8,2025-04-08T04:14:27,completed,card,desktop,Berlin,0,16,357,0,none,low
+txn_000446,M0031,334.56,2025-10-12T19:14:27,pending,cash,tablet,Berlin,2,3,2238,1,none,low
+txn_000447,M0037,171.1,2025-01-25T13:14:27,completed,bank_transfer,desktop,Berlin,1,10,1214,0,chargeback,low
+txn_000448,M0018,289.85,2026-05-22T20:14:27,completed,bank_transfer,desktop,Sydney,2,10,141,1,none,low
+txn_000449,M0045,430.07,2025-09-16T07:14:27,completed,wallet,mobile,Los Angeles,0,4,745,0,none,low
+txn_000450,M0029,1568.18,2025-08-03T00:14:27,completed,wallet,desktop,Sydney,3,6,357,1,none,medium
+txn_000451,M0031,699.73,2025-06-11T00:14:27,completed,wallet,mobile,London,3,28,1738,0,chargeback,medium
+txn_000452,M0003,79.41,2025-11-09T20:14:27,completed,card,tablet,Seattle,1,1,1212,1,none,low
+txn_000453,M0030,2761.18,2026-01-10T16:14:27,completed,wallet,tablet,Sydney,6,26,1117,3,authorization,high
+txn_000454,M0034,993.52,2026-07-22T12:14:27,completed,card,tablet,Berlin,2,14,1181,0,none,medium
+txn_000455,M0014,364.82,2026-08-01T17:14:27,completed,card,tablet,Chicago,1,7,169,0,none,low
+txn_000456,M0041,305.51,2025-06-07T15:14:27,failed,cash,mobile,London,1,6,484,0,none,low
+txn_000457,M0004,1241.53,2026-07-28T00:14:27,completed,bank_transfer,mobile,Los Angeles,3,12,391,0,refund,medium
+txn_000458,M0042,249.93,2025-03-24T23:14:27,completed,card,mobile,Miami,0,13,760,1,refund,low
+txn_000459,M0003,43.88,2026-04-29T16:14:27,completed,cash,mobile,Los Angeles,2,9,1856,0,none,low
+txn_000460,M0005,1639.76,2025-08-11T13:14:27,pending,wallet,desktop,London,1,20,1509,3,authorization,medium
+txn_000461,M0042,4962.47,2025-08-15T11:14:27,completed,card,mobile,Toronto,9,12,1480,3,authorization,high
+txn_000462,M0025,691.31,2026-04-01T19:14:27,completed,wallet,mobile,London,4,28,1629,2,none,medium
+txn_000463,M0047,1179.44,2026-05-09T11:14:27,completed,wallet,mobile,London,3,19,233,3,none,medium
+txn_000464,M0022,273.95,2026-09-13T11:14:27,completed,card,mobile,Chicago,1,16,2217,1,none,low
+txn_000465,M0010,329.69,2026-02-03T10:14:27,completed,cash,tablet,New York,2,15,2227,0,none,low
+txn_000466,M0007,459.67,2026-08-09T03:14:27,pending,cash,tablet,Los Angeles,0,8,564,0,duplicate,low
+txn_000467,M0048,227.45,2026-03-05T23:14:27,completed,cash,mobile,Chicago,1,7,1078,1,chargeback,medium
+txn_000468,M0010,3583.01,2025-10-21T10:14:27,completed,cash,desktop,Seattle,4,25,883,1,duplicate,high
+txn_000469,M0011,223.82,2024-12-20T17:14:27,completed,card,mobile,Chicago,2,2,576,0,none,low
+txn_000470,M0034,96.27,2026-03-02T08:14:27,completed,cash,mobile,Dallas,0,10,1734,1,none,low
+txn_000471,M0001,3780.07,2024-12-26T03:14:27,completed,wallet,desktop,Chicago,2,16,2057,5,none,high
+txn_000472,M0004,5867.71,2024-12-26T15:14:27,completed,wallet,desktop,Los Angeles,7,39,2088,2,refund,high
+txn_000473,M0019,1747.2,2026-08-16T11:14:27,completed,wallet,mobile,Miami,4,19,421,1,none,medium
+txn_000474,M0032,404.14,2026-04-02T07:14:27,pending,card,desktop,Dallas,1,2,457,0,none,low
+txn_000475,M0016,1115.75,2026-06-09T02:14:27,completed,cash,desktop,London,3,17,467,2,refund,medium
+txn_000476,M0024,243.53,2025-01-12T22:14:27,completed,wallet,mobile,Dallas,4,5,952,1,refund,medium
+txn_000477,M0030,487.97,2026-07-30T04:14:27,completed,cash,mobile,Los Angeles,0,11,551,0,none,low
+txn_000478,M0034,489.35,2025-03-12T05:14:27,completed,cash,desktop,Sydney,3,23,381,1,billing,medium
+txn_000479,M0038,235.68,2025-02-13T05:14:27,failed,wallet,tablet,New York,0,14,1040,0,none,low
+txn_000480,M0029,29.76,2025-05-26T14:14:27,pending,cash,desktop,Chicago,1,17,167,1,none,low
+txn_000481,M0002,14.11,2026-01-27T16:14:27,refunded,cash,tablet,Miami,2,14,922,0,none,low
+txn_000482,M0024,233.97,2025-08-10T07:14:27,pending,cash,tablet,New York,2,1,1893,1,none,low
+txn_000483,M0035,238.77,2025-12-26T14:14:27,refunded,wallet,tablet,Chicago,3,20,126,2,duplicate,medium
+txn_000484,M0024,173.16,2025-09-19T22:14:27,completed,bank_transfer,desktop,Toronto,0,17,1520,0,refund,low
+txn_000485,M0049,1062.07,2024-12-03T21:14:27,pending,wallet,tablet,Dallas,2,8,745,1,authorization,medium
+txn_000486,M0034,449.78,2025-10-10T22:14:27,completed,card,mobile,Toronto,2,14,1165,0,refund,low
+txn_000487,M0030,1015.2,2026-07-24T06:14:27,failed,card,desktop,London,3,18,1331,2,none,medium
+txn_000488,M0014,604.47,2026-04-30T21:14:27,completed,card,mobile,London,1,7,397,2,chargeback,medium
+txn_000489,M0005,3386.18,2024-12-08T12:14:27,completed,card,desktop,Toronto,4,35,1430,4,refund,high
+txn_000490,M0020,210.55,2025-02-26T08:14:27,failed,wallet,mobile,Dallas,1,11,2021,1,none,low
+txn_000491,M0046,485.6,2026-04-11T17:14:27,failed,bank_transfer,desktop,Los Angeles,0,5,1476,1,none,low
+txn_000492,M0017,1284.0,2025-11-08T18:14:27,completed,bank_transfer,desktop,Dallas,2,9,547,0,chargeback,medium
+txn_000493,M0002,25.07,2026-04-15T19:14:27,completed,cash,mobile,Los Angeles,1,12,635,1,none,low
+txn_000494,M0049,5588.52,2025-11-30T21:14:27,failed,wallet,tablet,Berlin,4,5,2088,3,duplicate,high
+txn_000495,M0029,63.26,2025-08-13T17:14:27,failed,bank_transfer,desktop,Seattle,1,2,601,0,none,low
+txn_000496,M0044,323.53,2026-07-05T19:14:27,failed,card,tablet,London,2,17,939,1,authorization,low
+txn_000497,M0001,164.34,2025-07-19T01:14:27,completed,bank_transfer,mobile,Seattle,2,17,259,1,none,low
+txn_000498,M0047,227.22,2025-07-30T22:14:27,completed,cash,tablet,London,2,3,913,1,none,low
+txn_000499,M0038,296.89,2025-04-10T02:14:27,completed,cash,desktop,New York,0,5,881,1,none,low
+txn_000500,M0025,457.89,2026-05-12T06:14:27,completed,bank_transfer,tablet,Berlin,1,6,2306,1,none,low
+txn_000501,M0041,414.51,2026-09-27T08:14:27,completed,cash,desktop,Miami,2,10,2053,1,billing,low
+txn_000502,M0024,250.01,2025-05-13T10:14:27,completed,cash,tablet,London,2,8,146,0,none,low
+txn_000503,M0011,1175.03,2025-02-17T12:14:27,failed,card,desktop,Seattle,4,26,1735,0,duplicate,medium
+txn_000504,M0019,349.1,2024-12-17T01:14:27,completed,card,tablet,Dallas,1,6,246,1,none,low
+txn_000505,M0018,427.86,2025-11-09T15:14:27,pending,bank_transfer,desktop,Toronto,1,23,1601,1,authorization,medium
+txn_000506,M0011,413.07,2025-05-20T23:14:27,completed,card,desktop,Los Angeles,0,5,2152,1,none,low
+txn_000507,M0002,417.13,2026-07-13T09:14:27,pending,cash,mobile,Miami,2,17,2209,0,none,low
+txn_000508,M0008,353.54,2025-11-22T12:14:27,pending,wallet,desktop,Los Angeles,4,23,1131,2,chargeback,medium
+txn_000509,M0031,636.48,2026-06-07T10:14:27,completed,cash,desktop,Dallas,2,8,220,3,none,medium
+txn_000510,M0001,398.18,2026-08-16T10:14:27,completed,card,desktop,Sydney,2,2,1951,0,none,low
+txn_000511,M0011,451.38,2025-12-18T18:14:27,completed,wallet,tablet,Sydney,0,12,149,0,duplicate,low
+txn_000512,M0047,411.24,2026-04-06T19:14:27,completed,card,desktop,Toronto,0,17,918,0,none,low
+txn_000513,M0033,917.52,2025-10-01T00:14:27,completed,wallet,mobile,Chicago,2,18,1439,0,refund,medium
+txn_000514,M0047,647.99,2025-09-24T14:14:27,completed,card,desktop,Seattle,4,7,1124,1,authorization,medium
+txn_000515,M0005,197.31,2025-12-05T23:14:27,completed,cash,tablet,Seattle,1,10,1848,0,none,low
+txn_000516,M0026,499.37,2024-11-06T10:14:27,completed,cash,tablet,Sydney,1,4,1653,1,none,low
+txn_000517,M0028,4526.16,2025-01-28T00:14:27,completed,cash,mobile,Sydney,4,9,1499,2,chargeback,high
+txn_000518,M0010,380.1,2025-08-10T21:14:27,completed,cash,desktop,Chicago,2,13,1488,1,none,low
+txn_000519,M0012,252.66,2026-07-21T21:14:27,completed,cash,tablet,Seattle,2,5,151,0,none,low
+txn_000520,M0032,314.01,2026-03-07T03:14:27,completed,bank_transfer,tablet,Seattle,0,3,2159,1,none,low
+txn_000521,M0025,1028.09,2026-05-31T00:14:27,completed,cash,mobile,New York,1,28,124,3,none,medium
+txn_000522,M0037,281.88,2025-08-26T21:14:27,pending,cash,tablet,Toronto,1,6,2043,1,duplicate,low
+txn_000523,M0040,1081.31,2025-05-10T18:14:27,refunded,bank_transfer,mobile,Seattle,4,21,380,0,duplicate,medium
+txn_000524,M0028,298.51,2024-12-28T02:14:27,completed,bank_transfer,mobile,London,0,12,1458,0,none,low
+txn_000525,M0011,333.33,2026-07-24T03:14:27,completed,card,tablet,Seattle,0,8,1308,0,none,low
+txn_000526,M0021,331.62,2025-06-05T18:14:27,completed,cash,tablet,London,1,17,1755,1,chargeback,low
+txn_000527,M0020,56.08,2024-11-15T02:14:27,completed,bank_transfer,mobile,Dallas,1,4,873,1,none,low
+txn_000528,M0015,424.89,2025-11-28T18:14:27,completed,card,tablet,Sydney,0,18,906,1,none,low
+txn_000529,M0033,173.72,2026-07-12T16:14:27,pending,bank_transfer,mobile,Toronto,0,17,1976,1,authorization,low
+txn_000530,M0012,211.84,2024-12-25T14:14:27,completed,cash,desktop,Berlin,1,17,1886,0,none,low
+txn_000531,M0010,321.86,2025-09-20T22:14:27,completed,bank_transfer,mobile,London,2,14,2348,0,none,low
+txn_000532,M0039,416.47,2024-12-07T07:14:27,completed,wallet,mobile,Dallas,0,7,1719,1,none,low
+txn_000533,M0003,102.42,2025-07-09T23:14:27,completed,wallet,desktop,Miami,0,10,1931,1,none,low
+txn_000534,M0006,135.13,2025-05-20T12:14:27,completed,bank_transfer,tablet,Miami,1,18,750,0,none,low
+txn_000535,M0048,1632.97,2026-05-09T05:14:27,completed,card,tablet,Sydney,4,15,1435,0,duplicate,medium
+txn_000536,M0048,5609.87,2025-11-13T02:14:27,pending,cash,tablet,Dallas,6,36,379,2,duplicate,high
+txn_000537,M0035,1542.65,2026-01-11T18:14:27,completed,bank_transfer,tablet,Chicago,3,16,886,3,refund,high
+txn_000538,M0039,216.5,2025-09-18T03:14:27,completed,card,tablet,New York,2,8,1167,0,none,low
+txn_000539,M0016,1445.19,2025-09-22T15:14:27,completed,cash,mobile,New York,2,12,1191,3,refund,medium
+txn_000540,M0050,2539.96,2026-04-17T22:14:27,completed,cash,desktop,Miami,6,24,379,2,chargeback,high
+txn_000541,M0007,1502.97,2025-10-23T14:14:27,completed,wallet,tablet,Miami,4,19,1569,3,none,medium
+txn_000542,M0041,181.11,2026-08-06T16:14:27,completed,cash,tablet,Los Angeles,2,18,1368,1,none,low
+txn_000543,M0050,106.44,2026-01-16T20:14:27,completed,wallet,tablet,London,1,11,2388,0,refund,low
+txn_000544,M0013,656.59,2025-01-30T02:14:27,pending,card,mobile,Seattle,4,27,333,2,chargeback,medium
+txn_000545,M0006,439.18,2024-12-05T17:14:27,completed,cash,desktop,Miami,2,8,114,0,none,low
+txn_000546,M0008,403.51,2025-09-18T07:14:27,refunded,card,tablet,Toronto,4,23,938,2,chargeback,medium
+txn_000547,M0032,460.63,2026-03-18T04:14:27,completed,cash,desktop,London,1,16,515,0,none,low
+txn_000548,M0017,1128.14,2025-08-07T08:14:27,completed,wallet,tablet,Berlin,3,27,1446,1,duplicate,medium
+txn_000549,M0014,2406.94,2025-11-01T14:14:27,completed,cash,tablet,London,9,10,52,4,chargeback,high
+txn_000550,M0039,550.46,2026-01-31T21:14:27,failed,card,desktop,Miami,1,21,180,0,duplicate,medium
+txn_000551,M0022,195.42,2026-01-06T07:14:27,completed,cash,desktop,Chicago,1,12,571,0,none,low
+txn_000552,M0018,268.97,2026-05-21T21:14:27,failed,bank_transfer,mobile,Miami,0,9,508,1,chargeback,low
+txn_000553,M0049,1800.33,2025-11-09T13:14:27,refunded,wallet,tablet,Berlin,6,38,1292,4,billing,high
+txn_000554,M0032,81.12,2025-06-07T23:14:27,completed,card,mobile,Seattle,0,6,176,1,none,low
+txn_000555,M0019,3496.87,2026-05-26T01:14:27,completed,wallet,desktop,Toronto,9,36,470,6,billing,high
+txn_000556,M0044,1066.26,2026-07-13T05:14:27,pending,card,mobile,New York,2,22,68,1,duplicate,medium
+txn_000557,M0046,490.82,2026-04-25T12:14:27,completed,cash,mobile,Miami,0,13,1560,0,none,low
+txn_000558,M0004,10.86,2026-08-10T16:14:27,completed,card,tablet,Sydney,0,15,1360,0,authorization,low
+txn_000559,M0026,204.24,2026-02-28T07:14:27,completed,bank_transfer,tablet,Los Angeles,0,8,1663,0,chargeback,low
+txn_000560,M0029,249.5,2025-09-17T20:14:27,completed,cash,mobile,Miami,1,10,567,1,none,low
+txn_000561,M0030,216.15,2026-06-26T11:14:27,completed,wallet,tablet,Los Angeles,1,12,793,1,none,low
+txn_000562,M0009,3305.49,2025-05-28T03:14:27,completed,bank_transfer,desktop,Toronto,3,23,1927,4,chargeback,high
+txn_000563,M0047,287.72,2025-08-03T09:14:27,completed,bank_transfer,mobile,Miami,2,3,214,0,none,low
+txn_000564,M0046,386.17,2025-08-23T11:14:27,completed,bank_transfer,mobile,Sydney,0,4,1925,0,none,low
+txn_000565,M0048,1392.36,2026-03-22T06:14:27,completed,bank_transfer,tablet,Chicago,4,23,1714,2,duplicate,medium
+txn_000566,M0043,16.81,2025-06-14T14:14:27,completed,cash,mobile,Sydney,1,4,84,0,none,low
+txn_000567,M0002,1156.13,2026-09-15T06:14:27,completed,wallet,desktop,Dallas,4,29,679,0,chargeback,medium
+txn_000568,M0002,79.42,2025-06-12T08:14:27,completed,card,desktop,Los Angeles,0,14,2236,0,refund,low
+txn_000569,M0026,868.05,2026-03-07T03:14:27,completed,card,mobile,New York,4,19,100,3,billing,medium
+txn_000570,M0047,425.03,2025-08-15T21:14:27,completed,cash,desktop,New York,1,14,2060,1,chargeback,low
+txn_000571,M0040,215.63,2025-07-28T21:14:27,completed,bank_transfer,mobile,London,1,18,290,1,none,low
+txn_000572,M0022,149.7,2026-02-16T18:14:27,failed,cash,desktop,Miami,0,16,1438,1,billing,low
+txn_000573,M0045,775.82,2026-04-16T17:14:27,completed,card,tablet,Berlin,4,30,1438,2,none,medium
+txn_000574,M0036,106.15,2025-05-12T03:14:27,completed,card,desktop,Seattle,2,16,443,1,none,low
+txn_000575,M0015,719.83,2025-10-18T23:14:27,completed,card,tablet,Dallas,2,9,1755,0,none,medium
+txn_000576,M0046,496.88,2025-04-19T17:14:27,completed,card,mobile,Berlin,1,2,2311,1,none,low
+txn_000577,M0024,4607.86,2024-12-23T09:14:27,failed,wallet,tablet,Miami,3,11,181,5,chargeback,high
+txn_000578,M0013,1400.1,2025-10-22T08:14:27,completed,cash,mobile,New York,4,27,263,1,none,medium
+txn_000579,M0024,406.1,2025-09-12T14:14:27,pending,wallet,desktop,Toronto,1,10,2098,0,refund,low
+txn_000580,M0002,120.27,2025-04-18T15:14:27,completed,cash,desktop,New York,1,14,1706,1,none,low
+txn_000581,M0049,989.15,2026-04-13T23:14:27,completed,card,tablet,Los Angeles,1,6,752,2,duplicate,medium
+txn_000582,M0023,629.52,2025-11-21T13:14:27,pending,card,mobile,Toronto,6,31,1656,6,authorization,high
+txn_000583,M0020,80.26,2024-12-04T00:14:27,pending,card,desktop,Toronto,1,15,870,1,none,low
+txn_000584,M0022,364.75,2025-04-23T19:14:27,completed,wallet,desktop,New York,2,5,2161,1,authorization,low
+txn_000585,M0024,1027.09,2025-04-30T09:14:27,pending,bank_transfer,tablet,Toronto,3,11,1764,2,none,medium
+txn_000586,M0016,31.48,2026-09-23T22:14:27,completed,wallet,mobile,Miami,2,4,1868,1,none,low
+txn_000587,M0050,394.12,2025-04-18T18:14:27,completed,bank_transfer,mobile,Chicago,2,5,1576,0,refund,low
+txn_000588,M0005,217.44,2026-05-18T21:14:27,completed,bank_transfer,tablet,Toronto,1,3,407,0,none,low
+txn_000589,M0032,283.01,2025-07-05T14:14:27,failed,cash,desktop,Los Angeles,1,9,2423,1,none,low
+txn_000590,M0011,246.5,2025-06-19T21:14:27,completed,bank_transfer,desktop,Sydney,1,5,2132,0,none,low
+txn_000591,M0024,305.36,2026-06-01T01:14:27,completed,bank_transfer,mobile,Berlin,3,22,653,0,authorization,medium
+txn_000592,M0032,78.29,2026-02-21T07:14:27,pending,card,desktop,Toronto,2,14,229,1,none,low
+txn_000593,M0047,436.25,2025-10-19T00:14:27,completed,wallet,desktop,Toronto,1,16,2377,1,none,low
+txn_000594,M0025,382.75,2024-12-28T15:14:27,completed,wallet,mobile,Seattle,2,15,640,1,refund,low
+txn_000595,M0046,479.38,2025-02-20T16:14:27,pending,bank_transfer,tablet,Chicago,1,9,392,0,none,low
+txn_000596,M0033,49.89,2025-04-13T06:14:27,pending,card,desktop,Toronto,2,18,2392,0,none,low
+txn_000597,M0038,17.34,2025-03-31T17:14:27,completed,card,mobile,New York,0,8,2403,1,refund,low
+txn_000598,M0019,96.81,2026-06-04T09:14:27,completed,wallet,desktop,Miami,0,17,1329,1,none,low
+txn_000599,M0004,379.1,2025-10-31T07:14:27,completed,bank_transfer,mobile,Chicago,4,25,406,0,billing,medium
+txn_000600,M0032,211.11,2026-01-26T17:14:27,completed,cash,desktop,Miami,1,9,1568,0,refund,low
+txn_000601,M0038,236.69,2026-02-02T12:14:27,completed,card,desktop,Toronto,1,3,2013,0,none,low
+txn_000602,M0011,330.96,2026-05-07T01:14:27,completed,wallet,tablet,London,4,18,231,1,none,medium
+txn_000603,M0031,3464.37,2026-04-11T12:14:27,completed,bank_transfer,tablet,Miami,2,5,1913,5,chargeback,high
+txn_000604,M0048,758.66,2025-04-25T03:14:27,completed,card,mobile,Chicago,3,30,1354,1,billing,medium
+txn_000605,M0022,68.5,2025-05-01T02:14:27,failed,bank_transfer,tablet,Berlin,0,18,1174,1,authorization,low
+txn_000606,M0009,333.84,2025-10-28T12:14:27,failed,card,tablet,Berlin,1,11,892,1,none,low
+txn_000607,M0042,12.71,2025-03-27T10:14:27,pending,card,tablet,New York,0,14,2306,1,none,low
+txn_000608,M0012,1490.98,2025-09-08T17:14:27,completed,card,desktop,Berlin,4,25,312,2,none,medium
+txn_000609,M0040,102.95,2025-09-28T06:14:27,completed,bank_transfer,tablet,Dallas,0,8,111,1,none,low
+txn_000610,M0041,250.95,2025-01-17T06:14:27,completed,cash,desktop,Miami,1,2,1179,1,none,low
+txn_000611,M0017,251.05,2026-05-20T13:14:27,completed,wallet,tablet,Miami,2,7,2347,0,refund,low
+txn_000612,M0042,341.57,2025-07-18T16:14:27,completed,card,mobile,London,2,18,1065,1,chargeback,low
+txn_000613,M0015,803.55,2025-04-18T11:14:27,failed,card,mobile,London,1,25,1121,3,authorization,medium
+txn_000614,M0045,163.59,2026-09-03T13:14:27,completed,cash,desktop,Dallas,1,7,1400,0,none,low
+txn_000615,M0022,169.98,2026-09-04T18:14:27,pending,bank_transfer,desktop,Chicago,0,4,144,1,none,low
+txn_000616,M0007,479.73,2025-01-22T17:14:27,completed,cash,tablet,Chicago,0,11,2158,0,none,low
+txn_000617,M0040,37.86,2026-07-27T22:14:27,completed,cash,desktop,Chicago,0,13,1313,0,none,low
+txn_000618,M0043,1059.55,2025-08-05T05:14:27,failed,card,mobile,London,3,16,882,0,billing,medium
+txn_000619,M0007,218.63,2025-10-27T18:14:27,completed,card,tablet,Chicago,2,4,1421,0,none,low
+txn_000620,M0012,421.66,2025-05-24T13:14:27,completed,wallet,desktop,New York,2,5,2114,1,none,low
+txn_000621,M0020,161.34,2025-03-24T08:14:27,completed,bank_transfer,mobile,Seattle,1,17,1495,1,none,low
+txn_000622,M0013,3250.78,2025-03-06T11:14:27,completed,wallet,tablet,Dallas,4,8,982,5,authorization,high
+txn_000623,M0022,693.81,2025-10-24T18:14:27,completed,bank_transfer,mobile,Seattle,4,26,1476,3,billing,medium
+txn_000624,M0016,231.52,2026-02-05T22:14:27,completed,cash,tablet,Seattle,0,16,928,0,none,low
+txn_000625,M0008,751.53,2026-07-16T01:14:27,completed,wallet,mobile,Berlin,4,9,1751,0,duplicate,medium
+txn_000626,M0047,296.16,2026-04-04T05:14:27,failed,wallet,mobile,Toronto,1,2,151,0,authorization,low
+txn_000627,M0008,104.43,2026-05-12T00:14:27,completed,bank_transfer,desktop,Miami,0,9,444,0,none,low
+txn_000628,M0009,189.86,2026-07-25T09:14:27,completed,wallet,desktop,Toronto,1,6,2188,1,none,low
+txn_000629,M0019,192.13,2025-02-05T06:14:27,failed,wallet,mobile,Dallas,2,14,1031,0,none,low
+txn_000630,M0040,399.44,2026-07-07T21:14:27,pending,card,desktop,Toronto,0,17,2422,1,authorization,low
+txn_000631,M0046,442.15,2025-09-11T20:14:27,completed,cash,mobile,Miami,2,12,2072,1,duplicate,low
+txn_000632,M0020,321.95,2025-06-24T05:14:27,completed,cash,mobile,Sydney,2,2,878,0,none,low
+txn_000633,M0015,422.48,2025-11-30T22:14:27,completed,card,mobile,Toronto,1,18,377,0,none,low
+txn_000634,M0012,217.64,2025-11-09T04:14:27,completed,cash,desktop,Miami,1,14,1705,1,none,low
+txn_000635,M0024,184.67,2026-02-08T09:14:27,completed,card,tablet,Dallas,0,10,2085,0,none,low
+txn_000636,M0017,340.15,2026-05-10T14:14:27,pending,card,mobile,Miami,1,10,1154,0,none,low
+txn_000637,M0015,1435.66,2025-04-23T08:14:27,failed,wallet,tablet,Dallas,4,16,1743,0,authorization,medium
+txn_000638,M0045,261.79,2025-11-13T06:14:27,completed,cash,desktop,Berlin,2,15,1919,1,none,low
+txn_000639,M0023,282.76,2026-09-19T21:14:27,pending,bank_transfer,desktop,London,1,5,2395,0,none,low
+txn_000640,M0010,378.29,2025-02-25T11:14:27,failed,bank_transfer,tablet,Sydney,2,18,1257,1,none,low
+txn_000641,M0022,3571.11,2025-08-30T06:14:27,completed,cash,tablet,Miami,8,29,846,4,chargeback,high
+txn_000642,M0025,59.32,2026-03-10T10:14:27,failed,bank_transfer,desktop,Dallas,2,6,161,1,chargeback,low
+txn_000643,M0008,266.0,2025-08-05T00:14:27,completed,wallet,tablet,London,1,2,1539,0,duplicate,low
+txn_000644,M0037,41.83,2024-11-17T21:14:27,completed,bank_transfer,tablet,Dallas,0,5,872,1,none,low
+txn_000645,M0034,344.94,2025-08-16T17:14:27,pending,bank_transfer,tablet,Berlin,1,7,60,0,none,low
+txn_000646,M0012,291.46,2025-11-29T00:14:27,completed,cash,desktop,Los Angeles,2,3,1209,1,none,low
+txn_000647,M0003,1351.85,2026-06-24T00:14:27,completed,wallet,desktop,Miami,4,16,1409,1,none,medium
+txn_000648,M0024,1023.4,2025-08-03T19:14:27,completed,card,desktop,Toronto,1,26,1547,1,none,medium
+txn_000649,M0045,667.7,2025-06-13T12:14:27,completed,cash,mobile,Seattle,4,9,577,1,authorization,medium
+txn_000650,M0030,1557.7,2026-05-13T02:14:27,completed,cash,mobile,Chicago,4,5,81,2,chargeback,medium
+txn_000651,M0039,331.26,2026-04-17T07:14:27,pending,card,desktop,Miami,2,15,604,1,none,low
+txn_000652,M0003,372.79,2025-09-28T07:14:27,completed,wallet,mobile,New York,0,3,75,1,duplicate,low
+txn_000653,M0025,1483.34,2025-01-25T12:14:27,completed,wallet,desktop,Seattle,1,16,1473,2,duplicate,medium
+txn_000654,M0015,1439.92,2026-03-16T15:14:27,completed,card,tablet,Los Angeles,2,31,124,1,chargeback,high
+txn_000655,M0035,193.94,2026-03-18T17:14:27,completed,cash,mobile,Chicago,1,30,729,2,billing,medium
+txn_000656,M0015,60.1,2026-09-17T00:14:27,completed,card,tablet,Miami,1,6,91,1,none,low
+txn_000657,M0037,189.54,2025-05-06T09:14:27,completed,wallet,mobile,Chicago,0,7,1713,1,none,low
+txn_000658,M0022,490.86,2025-11-07T15:14:27,completed,card,tablet,Sydney,2,13,574,1,duplicate,low
+txn_000659,M0048,259.42,2025-01-06T09:14:27,completed,cash,desktop,Sydney,2,8,2092,0,billing,low
+txn_000660,M0047,75.68,2024-12-11T11:14:27,completed,cash,tablet,Seattle,1,10,857,0,none,low
+txn_000661,M0016,164.23,2026-02-06T13:14:27,completed,wallet,tablet,New York,0,17,1729,1,none,low
+txn_000662,M0032,4090.53,2025-07-03T16:14:27,completed,card,desktop,New York,5,19,1572,5,chargeback,high
+txn_000663,M0028,77.63,2026-03-04T05:14:27,completed,cash,mobile,Los Angeles,0,5,405,0,none,low
+txn_000664,M0031,531.47,2025-06-26T16:14:27,completed,card,mobile,London,2,23,569,2,refund,medium
+txn_000665,M0028,239.59,2025-05-24T12:14:27,pending,card,mobile,Sydney,1,17,1805,0,none,low
+txn_000666,M0031,280.0,2025-12-13T00:14:27,completed,card,mobile,Los Angeles,0,9,1588,1,none,low
+txn_000667,M0024,448.8,2025-07-31T00:14:27,refunded,cash,mobile,Miami,2,4,86,2,authorization,medium
+txn_000668,M0017,297.45,2026-04-16T06:14:27,pending,bank_transfer,tablet,Berlin,1,2,539,1,none,low
+txn_000669,M0044,189.14,2026-08-25T01:14:27,completed,card,tablet,Los Angeles,0,13,1766,0,billing,low
+txn_000670,M0050,232.09,2024-11-20T07:14:27,completed,card,tablet,London,2,5,1071,0,none,low
+txn_000671,M0033,296.39,2025-07-19T04:14:27,completed,cash,tablet,Miami,0,17,803,1,duplicate,low
+txn_000672,M0048,1384.14,2025-12-27T13:14:27,completed,cash,tablet,Miami,1,7,1362,2,none,medium
+txn_000673,M0019,90.85,2025-07-28T20:14:27,completed,cash,desktop,Los Angeles,1,1,426,0,none,low
+txn_000674,M0048,354.39,2026-02-24T07:14:27,completed,wallet,desktop,Miami,0,16,775,0,none,low
+txn_000675,M0022,5268.21,2025-09-08T09:14:27,completed,card,tablet,Dallas,9,11,690,1,chargeback,high
+txn_000676,M0003,339.02,2026-09-21T15:14:27,completed,card,desktop,Toronto,0,1,280,1,none,low
+txn_000677,M0022,751.12,2025-10-20T01:14:27,completed,bank_transfer,desktop,Seattle,3,19,1029,2,billing,medium
+txn_000678,M0009,755.77,2025-08-13T13:14:27,pending,card,tablet,Chicago,1,15,736,0,chargeback,medium
+txn_000679,M0041,589.51,2024-11-22T06:14:27,completed,bank_transfer,desktop,Seattle,2,15,985,3,authorization,medium
+txn_000680,M0006,1748.92,2025-08-15T13:14:27,completed,bank_transfer,mobile,Berlin,3,25,969,1,billing,medium
+txn_000681,M0046,5185.47,2026-05-05T20:14:27,failed,card,desktop,Berlin,3,29,1213,5,chargeback,high
+txn_000682,M0011,626.27,2025-03-25T05:14:27,completed,card,desktop,London,4,9,973,0,authorization,medium
+txn_000683,M0043,466.56,2024-11-16T21:14:27,refunded,card,tablet,Los Angeles,7,29,1158,2,authorization,high
+txn_000684,M0025,3911.22,2025-01-22T10:14:27,completed,cash,tablet,Toronto,9,10,1373,2,billing,high
+txn_000685,M0038,2790.68,2026-06-07T10:14:27,completed,wallet,tablet,Chicago,5,19,1071,1,chargeback,high
+txn_000686,M0025,70.69,2025-02-01T19:14:27,completed,cash,mobile,Seattle,1,13,2393,0,none,low
+txn_000687,M0021,1688.99,2026-09-19T19:14:27,failed,wallet,mobile,Dallas,2,20,1419,1,chargeback,medium
+txn_000688,M0008,232.25,2025-11-16T20:14:27,refunded,bank_transfer,tablet,Sydney,2,10,627,0,none,low
+txn_000689,M0014,415.71,2025-10-23T08:14:27,pending,wallet,tablet,New York,1,10,1572,0,none,low
+txn_000690,M0022,4723.42,2026-04-19T12:14:27,completed,cash,tablet,Berlin,9,30,1235,6,billing,high
+txn_000691,M0026,4618.97,2026-03-13T14:14:27,failed,card,desktop,Seattle,8,9,2172,6,chargeback,high
+txn_000692,M0031,1095.04,2025-02-15T08:14:27,completed,bank_transfer,desktop,Dallas,1,26,682,3,none,medium
+txn_000693,M0028,376.2,2026-05-01T00:14:27,refunded,wallet,desktop,Chicago,2,1,1513,0,none,low
+txn_000694,M0016,241.15,2026-04-29T16:14:27,pending,card,desktop,Dallas,0,4,2141,1,none,low
+txn_000695,M0042,156.92,2024-12-03T00:14:27,completed,cash,mobile,New York,2,6,1567,0,none,low
+txn_000696,M0048,48.66,2025-02-19T21:14:27,completed,card,tablet,Los Angeles,1,17,951,0,none,low
+txn_000697,M0035,499.98,2026-07-25T14:14:27,failed,wallet,mobile,New York,2,14,1252,0,refund,low
+txn_000698,M0012,410.19,2026-02-28T15:14:27,failed,wallet,desktop,Toronto,2,16,291,0,none,low
+txn_000699,M0049,162.63,2026-07-01T19:14:27,completed,card,desktop,Chicago,0,5,2385,0,none,low
+txn_000700,M0019,186.87,2026-08-12T20:14:27,failed,cash,desktop,Sydney,2,6,1762,0,billing,low
+txn_000701,M0013,161.96,2024-11-20T11:14:27,completed,wallet,mobile,Dallas,1,18,2121,0,none,low
+txn_000702,M0017,3732.22,2025-07-24T10:14:27,completed,cash,tablet,Los Angeles,5,27,1146,2,authorization,high
+txn_000703,M0013,48.96,2025-12-27T16:14:27,completed,bank_transfer,tablet,Toronto,1,14,616,0,refund,low
+txn_000704,M0008,214.49,2025-01-19T05:14:27,completed,card,tablet,Toronto,0,11,1806,1,chargeback,low
+txn_000705,M0025,170.04,2026-02-10T04:14:27,completed,wallet,mobile,Chicago,0,12,1396,1,duplicate,low
+txn_000706,M0019,327.49,2025-10-06T14:14:27,completed,bank_transfer,tablet,Chicago,3,22,1742,3,chargeback,medium
+txn_000707,M0033,406.86,2026-05-22T04:14:27,completed,wallet,tablet,Los Angeles,4,9,766,3,authorization,medium
+txn_000708,M0029,287.24,2025-07-27T14:14:27,completed,bank_transfer,mobile,Toronto,1,2,1546,0,none,low
+txn_000709,M0041,476.69,2025-08-09T02:14:27,failed,card,desktop,Dallas,2,8,1280,0,none,low
+txn_000710,M0047,1241.14,2026-09-18T23:14:27,completed,wallet,mobile,Berlin,2,10,1180,5,billing,high
+txn_000711,M0035,498.99,2026-09-21T14:14:27,completed,bank_transfer,desktop,Toronto,2,4,1690,0,none,low
+txn_000712,M0004,191.16,2025-09-19T08:14:27,completed,cash,mobile,London,4,9,1441,1,chargeback,medium
+txn_000713,M0001,485.11,2025-05-23T03:14:27,completed,cash,desktop,Miami,1,8,2238,0,none,low
+txn_000714,M0023,5767.07,2025-01-06T22:14:27,completed,card,desktop,Seattle,2,34,2009,1,refund,high
+txn_000715,M0010,432.74,2026-07-04T20:14:27,completed,cash,desktop,Berlin,3,4,267,3,authorization,medium
+txn_000716,M0035,386.57,2025-09-20T23:14:27,failed,bank_transfer,desktop,Berlin,1,8,1957,1,none,low
+txn_000717,M0003,858.12,2026-03-10T09:14:27,completed,wallet,mobile,London,2,15,1590,3,chargeback,medium
+txn_000718,M0036,1633.68,2025-12-31T09:14:27,completed,cash,tablet,Los Angeles,2,25,467,3,none,medium
+txn_000719,M0023,384.08,2026-06-11T12:14:27,completed,card,tablet,Dallas,1,17,1622,0,refund,low
+txn_000720,M0016,416.28,2025-05-20T10:14:27,pending,wallet,tablet,Toronto,1,1,1809,1,none,low
+txn_000721,M0040,146.32,2026-06-15T14:14:27,pending,wallet,desktop,Sydney,0,9,1043,1,authorization,low
+txn_000722,M0040,81.17,2026-03-17T08:14:27,completed,wallet,desktop,New York,0,5,1673,0,none,low
+txn_000723,M0004,266.29,2026-07-28T20:14:27,completed,bank_transfer,desktop,Miami,2,8,938,1,none,low
+txn_000724,M0043,471.96,2026-03-27T11:14:27,completed,bank_transfer,desktop,Miami,2,14,1041,1,none,low
+txn_000725,M0007,454.97,2025-09-22T02:14:27,completed,card,tablet,Toronto,0,14,787,1,none,low
+txn_000726,M0016,338.92,2025-02-02T20:14:27,completed,bank_transfer,desktop,Sydney,3,27,1718,2,none,medium
+txn_000727,M0035,444.5,2025-06-30T09:14:27,completed,bank_transfer,mobile,Berlin,0,4,198,0,authorization,low
+txn_000728,M0024,1451.39,2026-01-13T19:14:27,refunded,cash,tablet,Chicago,4,7,533,2,refund,high
+txn_000729,M0019,685.94,2025-12-22T14:14:27,refunded,card,tablet,New York,8,38,2073,1,chargeback,high
+txn_000730,M0025,1285.59,2025-04-26T00:14:27,completed,cash,tablet,Miami,4,19,1462,0,chargeback,medium
+txn_000731,M0047,9.77,2025-04-21T22:14:27,completed,bank_transfer,mobile,Dallas,2,7,2455,0,none,low
+txn_000732,M0018,140.11,2025-12-05T11:14:27,completed,wallet,mobile,New York,0,6,947,0,none,low
+txn_000733,M0021,130.51,2024-12-20T17:14:27,refunded,card,tablet,Toronto,0,18,505,0,none,low
+txn_000734,M0018,73.74,2026-09-19T01:14:27,completed,wallet,mobile,New York,2,10,1359,0,none,low
+txn_000735,M0029,489.55,2024-12-18T17:14:27,completed,wallet,mobile,Miami,2,4,1594,1,none,low
+txn_000736,M0031,317.86,2025-07-12T01:14:27,completed,card,mobile,Los Angeles,1,5,1857,0,none,low
+txn_000737,M0020,409.27,2026-03-28T16:14:27,completed,wallet,desktop,London,0,7,2363,1,none,low
+txn_000738,M0034,435.58,2024-12-08T00:14:27,completed,wallet,tablet,New York,2,6,933,1,authorization,medium
+txn_000739,M0041,193.91,2026-07-06T04:14:27,completed,card,desktop,Chicago,0,4,85,0,duplicate,low
+txn_000740,M0020,410.58,2025-03-01T22:14:27,pending,bank_transfer,mobile,Los Angeles,2,3,858,0,none,low
+txn_000741,M0033,275.42,2026-06-15T19:14:27,completed,cash,desktop,New York,1,18,534,0,none,low
+txn_000742,M0046,436.8,2026-02-09T15:14:27,completed,card,mobile,Los Angeles,8,29,613,3,authorization,high
+txn_000743,M0039,1579.78,2025-09-25T10:14:27,failed,wallet,desktop,London,6,27,322,5,chargeback,high
+txn_000744,M0018,303.01,2025-12-10T01:14:27,failed,cash,tablet,Seattle,2,14,645,1,none,low
+txn_000745,M0031,4921.1,2026-05-01T00:14:27,completed,card,desktop,Sydney,3,5,618,6,chargeback,high
+txn_000746,M0028,365.54,2025-08-31T01:14:27,completed,cash,tablet,London,0,3,1353,0,authorization,low
+txn_000747,M0035,321.21,2025-03-26T19:14:27,completed,wallet,mobile,Chicago,0,8,1599,1,none,low
+txn_000748,M0031,215.55,2026-03-05T12:14:27,completed,wallet,desktop,New York,2,8,387,0,none,low
+txn_000749,M0015,2356.89,2025-03-13T23:14:27,completed,card,tablet,Los Angeles,4,23,1895,2,authorization,high
+txn_000750,M0031,350.32,2026-06-12T15:14:27,completed,wallet,desktop,Los Angeles,0,13,137,1,none,low
+txn_000751,M0048,46.86,2026-03-26T21:14:27,pending,bank_transfer,mobile,London,0,1,2361,1,duplicate,low
+txn_000752,M0012,865.88,2024-12-11T11:14:27,completed,wallet,desktop,London,1,13,287,1,chargeback,medium
+txn_000753,M0028,1262.24,2025-05-04T03:14:27,completed,wallet,mobile,Chicago,4,21,1516,2,none,medium
+txn_000754,M0039,489.14,2026-03-24T13:14:27,refunded,card,tablet,Berlin,0,7,1670,0,authorization,low
+txn_000755,M0007,329.13,2024-12-05T23:14:27,completed,card,desktop,Seattle,1,13,705,0,none,low
+txn_000756,M0049,424.53,2026-07-25T06:14:27,completed,bank_transfer,desktop,Toronto,0,8,1185,0,none,low
+txn_000757,M0006,465.17,2025-05-22T11:14:27,completed,bank_transfer,desktop,Seattle,0,9,378,0,none,low
+txn_000758,M0022,1730.68,2026-05-19T14:14:27,completed,cash,tablet,Toronto,2,14,1599,3,none,medium
+txn_000759,M0044,405.29,2026-08-22T03:14:27,completed,cash,desktop,Chicago,0,1,2435,1,none,low
+txn_000760,M0050,1619.95,2025-01-13T16:14:27,completed,bank_transfer,mobile,Los Angeles,5,14,669,5,duplicate,high
+txn_000761,M0010,185.28,2025-01-11T17:14:27,completed,cash,desktop,New York,1,2,1617,0,authorization,low
+txn_000762,M0018,436.27,2026-04-09T03:14:27,completed,bank_transfer,mobile,Chicago,2,3,2073,0,none,low
+txn_000763,M0008,357.64,2025-07-03T16:14:27,failed,cash,desktop,Seattle,1,9,1968,1,none,low
+txn_000764,M0017,793.58,2024-10-30T23:14:27,completed,card,tablet,New York,2,18,811,2,duplicate,medium
+txn_000765,M0015,531.29,2025-02-23T00:14:27,failed,cash,mobile,Chicago,1,8,275,2,duplicate,medium
+txn_000766,M0013,238.5,2026-06-11T00:14:27,pending,cash,mobile,Chicago,2,15,476,0,authorization,low
+txn_000767,M0031,498.25,2026-08-20T19:14:27,completed,wallet,tablet,Dallas,1,7,1980,0,none,low
+txn_000768,M0002,23.41,2025-06-02T06:14:27,completed,cash,mobile,Miami,2,13,285,1,none,low
+txn_000769,M0043,49.13,2025-06-23T23:14:27,completed,bank_transfer,desktop,New York,0,9,1689,0,none,low
+txn_000770,M0045,451.61,2025-07-26T21:14:27,completed,wallet,tablet,London,1,10,703,0,none,low
+txn_000771,M0021,348.91,2024-11-14T18:14:27,completed,bank_transfer,desktop,Los Angeles,1,1,2327,0,refund,low
+txn_000772,M0009,1688.82,2026-09-25T22:14:27,refunded,cash,tablet,Sydney,4,14,292,3,refund,medium
+txn_000773,M0013,115.56,2026-02-20T01:14:27,completed,card,mobile,Seattle,0,14,2266,0,none,low
+txn_000774,M0028,449.15,2025-10-04T01:14:27,pending,bank_transfer,desktop,Los Angeles,2,4,2074,1,none,low
+txn_000775,M0041,191.58,2024-11-22T14:14:27,completed,bank_transfer,tablet,Sydney,2,6,2253,1,none,low
+txn_000776,M0048,5463.53,2025-01-05T23:14:27,completed,card,tablet,Berlin,3,10,435,1,duplicate,high
+txn_000777,M0013,404.49,2025-06-20T19:14:27,completed,cash,desktop,Seattle,2,10,1752,0,billing,low
+txn_000778,M0043,5509.97,2025-04-28T03:14:27,completed,bank_transfer,mobile,London,8,30,41,3,authorization,high
+txn_000779,M0039,126.98,2025-09-10T20:14:27,pending,bank_transfer,mobile,Los Angeles,4,5,91,0,chargeback,medium
+txn_000780,M0037,5959.13,2025-08-23T11:14:27,pending,cash,desktop,London,5,40,1613,2,duplicate,high
+txn_000781,M0037,1290.19,2026-05-22T20:14:27,completed,cash,tablet,Miami,7,38,658,4,chargeback,high
+txn_000782,M0010,387.21,2026-09-17T16:14:27,pending,card,tablet,Toronto,3,10,250,0,chargeback,medium
+txn_000783,M0015,749.0,2025-09-28T07:14:27,completed,bank_transfer,desktop,Toronto,8,6,544,4,duplicate,high
+txn_000784,M0038,1340.21,2026-05-04T16:14:27,completed,card,desktop,Berlin,4,28,593,0,refund,medium
+txn_000785,M0014,999.3,2025-05-11T01:14:27,failed,cash,desktop,Berlin,4,23,1083,2,chargeback,high
+txn_000786,M0029,815.09,2025-09-10T02:14:27,completed,wallet,desktop,Miami,4,24,216,1,none,medium
+txn_000787,M0001,95.91,2025-05-21T17:14:27,completed,wallet,tablet,Miami,2,2,510,1,none,low
+txn_000788,M0008,1399.22,2026-04-26T06:14:27,failed,wallet,desktop,Seattle,2,39,104,5,duplicate,high
+txn_000789,M0042,49.05,2026-06-27T01:14:27,completed,bank_transfer,mobile,Berlin,2,5,1126,1,none,low
+txn_000790,M0050,473.6,2025-12-16T00:14:27,completed,bank_transfer,desktop,Dallas,0,9,738,0,none,low
+txn_000791,M0037,3080.64,2025-01-16T00:14:27,completed,bank_transfer,mobile,Chicago,9,32,1122,3,duplicate,high
+txn_000792,M0002,445.61,2024-12-07T20:14:27,completed,card,desktop,Seattle,2,9,2433,1,none,low
+txn_000793,M0045,99.47,2025-11-12T09:14:27,completed,card,tablet,Seattle,0,3,911,1,none,low
+txn_000794,M0007,287.19,2025-01-21T06:14:27,completed,bank_transfer,tablet,Sydney,1,8,2330,0,none,low
+txn_000795,M0032,4902.33,2026-03-11T06:14:27,completed,cash,desktop,Miami,3,31,1792,3,authorization,high
+txn_000796,M0037,69.05,2026-09-08T03:14:27,completed,card,mobile,Miami,0,11,2451,1,billing,low
+txn_000797,M0027,483.69,2026-09-13T10:14:27,completed,bank_transfer,mobile,Seattle,0,18,2190,0,none,low
+txn_000798,M0008,792.58,2025-06-20T21:14:27,failed,bank_transfer,tablet,Chicago,3,19,1314,0,duplicate,medium
+txn_000799,M0013,31.53,2025-07-10T05:14:27,completed,bank_transfer,tablet,New York,0,5,460,1,none,low
+txn_000800,M0040,5247.68,2026-07-15T04:14:27,completed,cash,mobile,Los Angeles,6,7,463,1,billing,high
+txn_000801,M0008,3625.68,2025-08-01T16:14:27,completed,wallet,tablet,Berlin,3,13,1317,2,authorization,high
+txn_000802,M0023,1760.27,2026-01-02T03:14:27,completed,wallet,tablet,Dallas,3,28,1556,3,refund,medium
+txn_000803,M0007,246.24,2025-06-07T00:14:27,completed,bank_transfer,desktop,Sydney,4,5,495,0,none,medium
+txn_000804,M0015,983.4,2025-05-01T09:14:27,failed,bank_transfer,mobile,Berlin,3,28,698,3,none,medium
+txn_000805,M0010,982.62,2025-11-18T18:14:27,completed,cash,desktop,Chicago,4,10,200,2,duplicate,medium
+txn_000806,M0036,447.9,2025-06-23T01:14:27,completed,card,mobile,London,0,9,147,1,none,low
+txn_000807,M0025,203.29,2025-09-16T09:14:27,completed,cash,desktop,Miami,1,17,1396,0,none,low
+txn_000808,M0008,94.91,2026-08-08T16:14:27,completed,wallet,desktop,New York,1,17,2051,1,refund,low
+txn_000809,M0026,1086.39,2025-01-01T14:14:27,completed,cash,desktop,Dallas,2,6,1149,0,refund,medium
+txn_000810,M0039,1597.61,2025-10-08T16:14:27,completed,bank_transfer,tablet,New York,3,19,481,1,none,medium
+txn_000811,M0022,255.59,2024-11-01T10:14:27,completed,cash,desktop,New York,2,16,1280,0,duplicate,low
+txn_000812,M0031,838.91,2026-09-19T17:14:27,completed,card,mobile,Dallas,1,9,600,0,chargeback,medium
+txn_000813,M0048,30.23,2026-06-25T09:14:27,completed,bank_transfer,mobile,Berlin,0,10,965,0,none,low
+txn_000814,M0022,1782.85,2026-09-16T01:14:27,completed,cash,desktop,Miami,3,25,1056,2,duplicate,medium
+txn_000815,M0016,1343.4,2026-05-07T01:14:27,completed,cash,mobile,Dallas,1,8,900,1,none,medium
+txn_000816,M0029,445.65,2024-11-02T19:14:27,failed,wallet,mobile,Seattle,4,24,281,2,none,medium
+txn_000817,M0040,776.92,2025-04-14T14:14:27,completed,card,mobile,Berlin,4,12,693,1,chargeback,medium
+txn_000818,M0034,397.92,2026-05-01T22:14:27,completed,bank_transfer,tablet,Toronto,1,10,481,0,none,low
+txn_000819,M0038,630.12,2026-08-19T06:14:27,completed,card,desktop,Berlin,3,6,1697,2,chargeback,medium
+txn_000820,M0050,219.72,2025-12-12T20:14:27,completed,wallet,desktop,Miami,2,1,234,1,duplicate,low
+txn_000821,M0041,368.66,2025-10-01T05:14:27,pending,cash,mobile,London,1,3,1221,0,chargeback,low
+txn_000822,M0009,859.39,2024-11-03T02:14:27,pending,wallet,mobile,Los Angeles,6,24,1282,2,duplicate,high
+txn_000823,M0034,106.17,2025-09-09T23:14:27,completed,cash,tablet,Seattle,1,3,1247,1,none,low
+txn_000824,M0036,345.1,2025-08-04T22:14:27,completed,card,mobile,Chicago,1,15,1480,1,none,low
+txn_000825,M0004,1153.55,2025-03-21T18:14:27,failed,cash,desktop,London,3,29,556,2,chargeback,medium
+txn_000826,M0007,897.52,2024-12-03T09:14:27,completed,bank_transfer,tablet,Berlin,4,30,171,0,chargeback,medium
+txn_000827,M0032,1572.05,2025-04-19T08:14:27,completed,wallet,desktop,Los Angeles,1,27,1257,0,none,medium
+txn_000828,M0034,160.96,2026-04-25T17:14:27,failed,card,desktop,Dallas,0,16,852,0,refund,low
+txn_000829,M0012,20.13,2025-11-26T00:14:27,completed,wallet,tablet,Miami,2,15,1630,0,none,low
+txn_000830,M0048,1264.62,2024-11-25T05:14:27,completed,wallet,mobile,Berlin,1,17,359,0,refund,medium
+txn_000831,M0028,336.43,2026-06-11T22:14:27,completed,wallet,desktop,Miami,2,16,1534,1,none,low
+txn_000832,M0047,285.59,2025-10-01T08:14:27,completed,cash,mobile,New York,0,10,169,1,chargeback,low
+txn_000833,M0042,2339.16,2026-04-03T16:14:27,completed,bank_transfer,mobile,Los Angeles,5,27,2160,4,duplicate,high
+txn_000834,M0037,383.2,2025-06-02T17:14:27,completed,bank_transfer,desktop,Seattle,1,13,309,1,none,low
+txn_000835,M0007,293.72,2026-04-20T05:14:27,completed,cash,tablet,Berlin,2,13,306,0,chargeback,low
+txn_000836,M0004,121.92,2025-08-31T23:14:27,failed,bank_transfer,desktop,New York,2,8,461,0,none,low
+txn_000837,M0025,242.44,2025-11-05T09:14:27,completed,wallet,tablet,Sydney,3,23,1352,0,none,medium
+txn_000838,M0013,104.29,2026-04-16T23:14:27,pending,card,tablet,New York,1,15,1201,0,authorization,low
+txn_000839,M0005,336.98,2025-08-07T18:14:27,completed,bank_transfer,desktop,Toronto,0,2,605,0,none,low
+txn_000840,M0029,417.54,2025-03-06T08:14:27,pending,cash,tablet,London,2,16,2081,1,none,low
+txn_000841,M0035,1076.18,2025-05-07T05:14:27,completed,bank_transfer,desktop,Dallas,2,29,1119,2,chargeback,medium
+txn_000842,M0037,607.03,2026-04-21T03:14:27,completed,wallet,tablet,Sydney,3,16,1500,2,chargeback,medium
+txn_000843,M0022,204.42,2026-01-02T16:14:27,completed,cash,mobile,Dallas,0,18,484,1,none,low
+txn_000844,M0005,384.25,2024-11-19T11:14:27,completed,card,mobile,Chicago,0,7,2270,1,none,low
+txn_000845,M0033,3709.44,2026-08-18T09:14:27,completed,wallet,tablet,Seattle,3,40,1971,2,chargeback,high
+txn_000846,M0025,157.28,2026-03-12T19:14:27,completed,card,tablet,Berlin,0,1,256,0,none,low
+txn_000847,M0040,384.72,2026-06-02T22:14:27,completed,bank_transfer,mobile,Dallas,2,5,1790,1,none,low
+txn_000848,M0001,459.69,2025-03-28T18:14:27,completed,wallet,desktop,Chicago,0,8,406,0,billing,low
+txn_000849,M0026,223.77,2026-01-22T03:14:27,completed,cash,tablet,Chicago,1,2,1316,1,none,low
+txn_000850,M0024,248.31,2026-02-15T22:14:27,completed,bank_transfer,tablet,Dallas,2,19,1504,2,none,medium
+txn_000851,M0032,139.63,2025-08-04T14:14:27,refunded,bank_transfer,desktop,Dallas,2,18,2092,0,refund,low
+txn_000852,M0045,5096.12,2026-05-07T11:14:27,refunded,cash,tablet,Berlin,5,24,873,1,refund,high
+txn_000853,M0040,421.35,2026-07-05T11:14:27,completed,cash,mobile,New York,2,22,1148,5,refund,high
+txn_000854,M0020,766.23,2025-07-14T19:14:27,completed,card,tablet,Seattle,1,11,481,3,refund,medium
+txn_000855,M0047,5487.31,2024-12-31T23:14:27,failed,card,desktop,Toronto,7,21,896,1,chargeback,high
+txn_000856,M0025,362.88,2025-02-24T20:14:27,completed,cash,tablet,Dallas,2,10,2220,1,none,low
+txn_000857,M0003,15.47,2025-12-01T02:14:27,completed,bank_transfer,mobile,Miami,2,9,380,0,none,low
+txn_000858,M0029,1434.48,2026-03-29T22:14:27,completed,card,mobile,New York,1,7,688,2,none,medium
+txn_000859,M0005,3037.19,2025-12-19T17:14:27,completed,cash,desktop,Miami,5,31,249,5,billing,high
+txn_000860,M0008,583.92,2025-01-04T16:14:27,completed,card,desktop,Toronto,4,8,525,1,chargeback,medium
+txn_000861,M0023,1094.22,2026-01-07T04:14:27,completed,card,tablet,Dallas,1,21,1529,1,chargeback,medium
+txn_000862,M0044,46.12,2025-10-30T18:14:27,completed,cash,desktop,London,1,4,2123,0,billing,low
+txn_000863,M0019,360.37,2025-08-07T16:14:27,completed,card,desktop,Seattle,3,23,1674,2,duplicate,medium
+txn_000864,M0033,465.71,2025-04-23T14:14:27,pending,bank_transfer,desktop,London,2,1,465,0,none,low
+txn_000865,M0037,174.77,2026-02-11T18:14:27,completed,cash,tablet,Chicago,2,16,1621,0,none,medium
+txn_000866,M0016,1006.63,2026-03-13T18:14:27,completed,bank_transfer,desktop,Seattle,1,23,1027,3,refund,medium
+txn_000867,M0024,162.89,2025-10-03T19:14:27,completed,cash,tablet,Dallas,0,8,1852,1,none,low
+txn_000868,M0009,214.07,2025-08-07T15:14:27,completed,bank_transfer,mobile,Seattle,2,5,2232,0,none,low
+txn_000869,M0001,48.1,2026-03-11T07:14:27,failed,wallet,desktop,London,1,17,637,1,none,low
+txn_000870,M0005,280.85,2026-09-04T14:14:27,completed,wallet,tablet,Toronto,1,4,547,0,none,low
+txn_000871,M0022,5454.28,2025-12-03T09:14:27,completed,card,tablet,New York,7,13,1657,6,duplicate,high
+txn_000872,M0012,461.0,2025-05-28T14:14:27,completed,card,desktop,New York,1,14,1872,1,none,low
+txn_000873,M0050,189.98,2025-04-26T13:14:27,completed,card,desktop,Miami,2,15,1583,1,none,low
+txn_000874,M0010,31.76,2025-09-01T02:14:27,pending,card,tablet,Dallas,2,17,2404,1,none,low
+txn_000875,M0029,144.9,2026-05-31T03:14:27,completed,wallet,desktop,Miami,2,11,437,1,none,low
+txn_000876,M0002,1778.75,2025-03-12T20:14:27,pending,card,tablet,Toronto,3,19,1151,2,chargeback,high
+txn_000877,M0034,131.2,2025-02-21T23:14:27,pending,wallet,mobile,Miami,1,15,476,2,none,medium
+txn_000878,M0008,4382.63,2026-05-12T04:14:27,pending,bank_transfer,desktop,Dallas,3,33,1780,4,chargeback,high
+txn_000879,M0046,669.55,2025-11-11T11:14:27,completed,bank_transfer,desktop,Toronto,3,12,988,0,none,medium
+txn_000880,M0015,1594.32,2025-02-06T00:14:27,failed,wallet,mobile,Berlin,1,24,1344,0,refund,medium
+txn_000881,M0048,408.42,2026-06-30T20:14:27,failed,wallet,desktop,London,2,16,1187,0,authorization,low
+txn_000882,M0016,282.41,2025-01-09T00:14:27,completed,bank_transfer,mobile,Toronto,0,6,188,1,none,low
+txn_000883,M0023,422.51,2025-05-15T16:14:27,completed,cash,mobile,Chicago,3,30,534,2,none,medium
+txn_000884,M0021,481.76,2025-07-21T09:14:27,completed,card,mobile,London,1,14,1861,1,billing,low
+txn_000885,M0033,1419.79,2026-02-01T12:14:27,completed,wallet,mobile,New York,4,30,1708,3,billing,medium
+txn_000886,M0004,167.01,2025-07-21T00:14:27,completed,bank_transfer,mobile,Dallas,2,11,1714,1,none,low
+txn_000887,M0041,410.71,2026-04-11T19:14:27,completed,card,tablet,Sydney,1,15,1708,0,none,low
+txn_000888,M0036,305.64,2025-10-23T01:14:27,pending,card,tablet,New York,0,1,1583,0,none,low
+txn_000889,M0024,186.15,2026-02-07T03:14:27,pending,bank_transfer,mobile,Dallas,0,6,2224,1,none,low
+txn_000890,M0020,130.36,2025-05-21T11:14:27,completed,card,desktop,Dallas,0,2,112,0,none,low
+txn_000891,M0046,376.96,2026-07-13T10:14:27,completed,cash,desktop,New York,1,13,567,1,none,low
+txn_000892,M0028,1030.05,2025-01-17T03:14:27,pending,card,mobile,Miami,2,7,1567,3,refund,medium
+txn_000893,M0031,57.04,2026-02-13T23:14:27,completed,bank_transfer,tablet,Toronto,2,16,1572,1,none,low
+txn_000894,M0015,196.14,2025-02-15T12:14:27,completed,cash,mobile,Berlin,1,13,1556,0,none,low
+txn_000895,M0006,324.27,2026-02-28T21:14:27,completed,wallet,mobile,Sydney,1,5,372,0,none,low
+txn_000896,M0010,999.32,2025-11-14T13:14:27,completed,card,mobile,Sydney,2,5,1631,3,refund,medium
+txn_000897,M0030,436.74,2025-11-12T16:14:27,completed,cash,tablet,Toronto,1,7,2333,1,none,low
+txn_000898,M0008,1787.83,2026-09-16T07:14:27,completed,wallet,desktop,Berlin,1,7,931,0,duplicate,medium
+txn_000899,M0019,310.96,2025-03-17T23:14:27,completed,card,mobile,Miami,4,19,409,3,chargeback,medium
+txn_000900,M0044,1598.78,2026-04-13T08:14:27,completed,wallet,tablet,Seattle,3,20,720,2,billing,medium
+txn_000901,M0012,131.61,2025-06-01T12:14:27,completed,wallet,mobile,Chicago,1,7,1382,0,duplicate,low
+txn_000902,M0039,331.93,2026-06-25T11:14:27,completed,wallet,desktop,Seattle,5,17,394,5,refund,high
+txn_000903,M0024,442.6,2025-07-19T18:14:27,pending,cash,mobile,Toronto,1,1,819,1,none,low
+txn_000904,M0034,332.41,2026-01-02T18:14:27,completed,cash,mobile,Sydney,0,5,451,0,none,low
+txn_000905,M0006,1114.85,2026-09-27T05:14:27,refunded,wallet,desktop,Los Angeles,3,29,1569,3,refund,medium
+txn_000906,M0049,8.12,2025-06-03T02:14:27,completed,card,desktop,Toronto,0,2,591,1,none,low
+txn_000907,M0039,388.77,2025-11-08T20:14:27,completed,wallet,desktop,Miami,2,16,1484,1,none,low
+txn_000908,M0012,1530.99,2025-03-06T23:14:27,completed,card,mobile,Berlin,4,19,1483,2,none,medium
+txn_000909,M0013,701.27,2026-03-29T13:14:27,refunded,cash,mobile,Toronto,4,10,1323,1,duplicate,medium
+txn_000910,M0042,296.4,2026-09-15T17:14:27,completed,bank_transfer,tablet,Berlin,1,4,1540,1,none,low
+txn_000911,M0039,497.9,2026-08-28T14:14:27,failed,cash,mobile,Los Angeles,2,9,1153,0,none,low
+txn_000912,M0009,438.47,2026-04-25T14:14:27,pending,card,mobile,Chicago,2,4,186,1,chargeback,low
+txn_000913,M0002,321.64,2026-03-14T16:14:27,completed,bank_transfer,tablet,Seattle,0,11,429,1,none,low
+txn_000914,M0013,404.28,2024-11-14T15:14:27,completed,wallet,tablet,Miami,3,20,89,3,duplicate,medium
+txn_000915,M0023,226.15,2026-09-26T03:14:27,completed,card,mobile,Berlin,1,7,2100,1,duplicate,low
+txn_000916,M0021,350.58,2026-03-26T13:14:27,completed,card,desktop,New York,2,15,391,0,none,low
+txn_000917,M0046,192.27,2026-05-17T03:14:27,completed,bank_transfer,desktop,Miami,0,8,1290,0,none,low
+txn_000918,M0017,163.25,2025-12-01T04:14:27,completed,card,mobile,Seattle,0,7,1147,0,duplicate,low
+txn_000919,M0037,179.64,2025-02-07T00:14:27,completed,wallet,tablet,London,2,17,1871,0,chargeback,low
+txn_000920,M0017,406.97,2026-02-26T04:14:27,completed,card,desktop,Toronto,1,7,1431,1,refund,low
+txn_000921,M0003,433.19,2025-09-07T15:14:27,completed,bank_transfer,tablet,Chicago,2,18,1261,2,duplicate,medium
+txn_000922,M0023,435.71,2024-12-05T09:14:27,completed,bank_transfer,desktop,Berlin,0,6,1756,1,none,low
+txn_000923,M0024,378.01,2025-06-02T05:14:27,completed,bank_transfer,mobile,London,1,15,2461,1,none,low
+txn_000924,M0002,485.62,2025-12-27T18:14:27,completed,wallet,tablet,Los Angeles,0,17,471,1,none,low
+txn_000925,M0050,5353.59,2026-08-05T10:14:27,completed,wallet,mobile,Berlin,5,13,542,6,chargeback,high
+txn_000926,M0014,234.61,2026-07-09T07:14:27,completed,cash,desktop,Dallas,2,5,850,0,none,low
+txn_000927,M0045,281.23,2025-06-03T19:14:27,completed,wallet,mobile,London,1,1,1985,0,none,low
+txn_000928,M0019,1306.46,2026-05-16T00:14:27,pending,cash,tablet,London,1,16,323,2,none,medium
+txn_000929,M0001,178.66,2025-09-17T01:14:27,completed,cash,desktop,Dallas,2,1,938,0,none,low
+txn_000930,M0019,100.48,2024-11-29T07:14:27,completed,bank_transfer,mobile,Berlin,0,10,1813,0,none,low
+txn_000931,M0023,479.59,2026-06-12T22:14:27,pending,card,tablet,London,1,6,699,1,none,low
+txn_000932,M0043,140.54,2026-09-17T21:14:27,completed,cash,mobile,New York,3,8,1236,3,none,medium
+txn_000933,M0008,135.26,2025-10-20T19:14:27,refunded,wallet,mobile,Toronto,2,4,1874,1,none,low
+txn_000934,M0040,1582.13,2025-02-02T04:14:27,completed,cash,mobile,New York,1,8,74,2,none,medium
+txn_000935,M0044,27.6,2025-09-16T04:14:27,completed,bank_transfer,desktop,Toronto,1,15,1533,0,none,low
+txn_000936,M0047,152.27,2026-08-23T17:14:27,completed,card,tablet,London,1,1,1859,1,none,low
+txn_000937,M0045,49.35,2025-12-22T01:14:27,refunded,wallet,tablet,Toronto,0,5,622,1,none,low
+txn_000938,M0047,28.0,2024-12-15T09:14:27,completed,card,mobile,Miami,1,12,186,0,none,low
+txn_000939,M0020,19.01,2026-03-16T18:14:27,completed,wallet,tablet,New York,2,9,354,1,none,low
+txn_000940,M0012,240.68,2026-08-13T17:14:27,completed,bank_transfer,mobile,New York,1,9,790,1,none,low
+txn_000941,M0015,17.21,2024-12-18T02:14:27,completed,card,tablet,Seattle,1,5,1155,1,none,low
+txn_000942,M0036,308.8,2025-10-27T19:14:27,completed,card,mobile,Seattle,2,15,2438,1,none,low
+txn_000943,M0026,412.73,2026-04-07T15:14:27,completed,card,tablet,Sydney,0,15,2073,0,none,low
+txn_000944,M0021,3898.89,2025-09-16T03:14:27,completed,cash,tablet,Berlin,7,10,860,6,none,high
+txn_000945,M0032,315.43,2026-09-06T03:14:27,completed,wallet,mobile,Toronto,0,12,2343,1,none,low
+txn_000946,M0011,306.7,2026-06-07T18:14:27,completed,cash,tablet,London,0,4,1650,0,authorization,low
+txn_000947,M0049,115.13,2024-11-17T15:14:27,refunded,bank_transfer,tablet,Toronto,2,9,1338,1,none,low
+txn_000948,M0012,118.75,2025-06-26T07:14:27,failed,cash,mobile,New York,1,16,1930,1,none,low
+txn_000949,M0041,172.35,2025-07-27T23:14:27,completed,card,tablet,Dallas,1,6,432,1,none,low
+txn_000950,M0044,313.0,2026-04-11T18:14:27,completed,card,mobile,New York,0,14,123,1,none,low
+txn_000951,M0016,1604.3,2026-04-16T22:14:27,completed,wallet,mobile,Dallas,4,21,1107,1,none,medium
+txn_000952,M0012,152.15,2025-01-19T22:14:27,refunded,cash,tablet,Chicago,0,7,2395,1,none,low
+txn_000953,M0034,1527.63,2026-08-26T15:14:27,completed,cash,mobile,Chicago,2,11,1006,0,chargeback,medium
+txn_000954,M0047,1728.73,2026-07-30T03:14:27,pending,card,mobile,London,1,26,1650,0,duplicate,medium
+txn_000955,M0008,979.42,2026-01-03T18:14:27,pending,wallet,mobile,London,4,17,1672,0,chargeback,medium
+txn_000956,M0030,358.48,2025-10-26T16:14:27,completed,cash,desktop,Miami,2,29,1048,1,refund,medium
+txn_000957,M0002,347.08,2026-05-09T08:14:27,completed,wallet,mobile,Sydney,1,15,1086,1,none,low
+txn_000958,M0048,151.28,2025-07-05T15:14:27,completed,wallet,desktop,Sydney,2,6,2355,1,none,low
+txn_000959,M0024,197.04,2026-04-30T18:14:27,completed,cash,mobile,Sydney,2,8,144,0,none,low
+txn_000960,M0034,5842.7,2025-05-20T16:14:27,completed,cash,desktop,Berlin,4,37,1297,5,refund,high
+txn_000961,M0047,143.91,2026-04-29T04:14:27,completed,card,tablet,Dallas,1,14,520,2,refund,medium
+txn_000962,M0041,233.99,2025-09-21T15:14:27,completed,card,mobile,Toronto,2,1,2176,0,none,low
+txn_000963,M0048,280.22,2025-04-12T05:14:27,completed,wallet,tablet,Dallas,2,18,355,0,none,low
+txn_000964,M0005,360.95,2026-03-18T13:14:27,pending,wallet,tablet,Miami,0,2,1118,1,refund,low
+txn_000965,M0005,119.97,2026-08-08T02:14:27,pending,wallet,mobile,Chicago,2,16,1931,0,none,low
+txn_000966,M0028,242.21,2025-11-25T18:14:27,completed,card,tablet,Berlin,0,18,2444,0,none,low
+txn_000967,M0033,447.26,2025-05-12T16:14:27,completed,cash,tablet,Miami,4,4,575,3,billing,medium
+txn_000968,M0049,2007.93,2025-11-16T16:14:27,completed,wallet,mobile,New York,5,26,1137,6,duplicate,high
+txn_000969,M0029,487.38,2025-07-13T15:14:27,completed,bank_transfer,tablet,Toronto,1,16,698,0,refund,low
+txn_000970,M0031,445.24,2025-11-21T02:14:27,pending,card,tablet,Miami,1,28,534,1,refund,medium
+txn_000971,M0011,1498.66,2026-04-07T07:14:27,completed,bank_transfer,tablet,Berlin,4,25,650,2,authorization,high
+txn_000972,M0022,1445.1,2025-11-23T01:14:27,completed,bank_transfer,tablet,Seattle,3,11,598,3,none,medium
+txn_000973,M0009,217.25,2025-08-07T01:14:27,completed,cash,mobile,New York,1,14,53,1,refund,low
+txn_000974,M0036,459.72,2025-07-19T00:14:27,completed,wallet,desktop,Sydney,3,13,1765,2,chargeback,medium
+txn_000975,M0003,429.35,2025-05-25T13:14:27,completed,cash,tablet,Berlin,0,3,1025,0,none,low
+txn_000976,M0029,493.57,2025-10-14T04:14:27,completed,bank_transfer,desktop,Berlin,2,13,272,0,refund,low
+txn_000977,M0029,376.91,2025-02-19T06:14:27,completed,wallet,mobile,Sydney,1,14,651,0,none,low
+txn_000978,M0021,333.06,2026-07-21T14:14:27,completed,bank_transfer,mobile,Dallas,2,17,1223,0,duplicate,low
+txn_000979,M0002,238.42,2026-01-07T04:14:27,completed,wallet,desktop,London,1,12,1394,0,none,low
+txn_000980,M0021,404.58,2025-07-09T11:14:27,refunded,cash,mobile,Sydney,0,17,276,1,chargeback,low
+txn_000981,M0030,41.02,2025-04-22T10:14:27,completed,wallet,desktop,London,0,3,2316,0,none,low
+txn_000982,M0050,902.4,2025-02-17T02:14:27,completed,cash,desktop,London,2,24,736,0,refund,medium
+txn_000983,M0038,11.13,2026-04-28T04:14:27,failed,bank_transfer,tablet,Berlin,1,1,64,0,none,low
+txn_000984,M0007,456.56,2026-05-01T06:14:27,completed,card,tablet,Sydney,3,26,1241,1,refund,medium
+txn_000985,M0013,524.88,2025-11-11T05:14:27,completed,bank_transfer,desktop,London,4,39,1437,1,chargeback,high
+txn_000986,M0025,1627.98,2025-07-06T09:14:27,pending,card,mobile,Dallas,5,27,121,2,billing,high
+txn_000987,M0033,227.83,2026-05-25T10:14:27,refunded,card,desktop,Dallas,1,7,872,1,none,low
+txn_000988,M0017,248.64,2026-06-28T20:14:27,completed,card,mobile,New York,2,12,1327,1,authorization,low
+txn_000989,M0042,403.28,2026-07-24T23:14:27,refunded,bank_transfer,desktop,Chicago,1,4,1482,1,none,low
+txn_000990,M0009,1481.08,2026-01-18T07:14:27,completed,wallet,desktop,Berlin,4,4,622,2,chargeback,medium
+txn_000991,M0012,222.78,2025-08-01T07:14:27,completed,wallet,tablet,Los Angeles,2,27,1413,2,duplicate,medium
+txn_000992,M0017,463.08,2024-12-28T01:14:27,failed,bank_transfer,desktop,New York,0,1,2067,0,none,low
+txn_000993,M0011,445.3,2025-01-24T13:14:27,completed,card,desktop,Seattle,0,5,1699,0,none,low
+txn_000994,M0039,274.77,2025-03-28T22:14:27,completed,card,mobile,Berlin,1,7,1034,3,none,medium
+txn_000995,M0032,452.22,2024-11-13T14:14:27,completed,wallet,desktop,Dallas,0,11,2241,1,none,low
+txn_000996,M0015,404.28,2025-12-13T17:14:27,completed,bank_transfer,desktop,Miami,0,8,366,0,none,low
+txn_000997,M0043,487.19,2026-05-18T02:14:27,completed,wallet,tablet,New York,2,17,2147,1,none,low
+txn_000998,M0016,1463.62,2024-12-19T11:14:27,pending,wallet,mobile,Seattle,1,29,465,1,chargeback,medium
+txn_000999,M0035,244.54,2026-02-21T22:14:27,completed,cash,desktop,Miami,1,7,2394,1,none,low
+txn_001000,M0007,984.34,2025-05-17T19:14:27,completed,bank_transfer,tablet,Miami,3,14,441,2,duplicate,medium
+txn_001001,M0046,187.79,2025-06-18T09:14:27,completed,bank_transfer,desktop,Seattle,2,1,2255,0,refund,low
+txn_001002,M0044,222.59,2025-04-24T06:14:27,completed,wallet,desktop,Dallas,0,17,777,1,none,low
+txn_001003,M0034,714.61,2025-09-22T19:14:27,completed,wallet,mobile,Los Angeles,2,22,1146,0,none,medium
+txn_001004,M0026,89.49,2025-12-18T11:14:27,refunded,bank_transfer,mobile,Toronto,2,8,652,1,none,low
+txn_001005,M0036,5394.34,2026-09-29T10:14:27,completed,bank_transfer,desktop,Sydney,9,25,567,6,billing,high
+txn_001006,M0042,40.87,2026-01-24T00:14:27,pending,cash,mobile,Sydney,1,5,618,1,none,low
+txn_001007,M0044,418.49,2026-05-25T13:14:27,pending,wallet,desktop,Berlin,0,8,1161,0,none,low
+txn_001008,M0043,143.53,2024-12-24T17:14:27,completed,cash,mobile,Chicago,1,1,510,1,none,low
+txn_001009,M0017,308.14,2026-08-19T00:14:27,pending,card,tablet,Berlin,0,3,1428,1,none,low
+txn_001010,M0039,90.88,2026-06-30T13:14:27,completed,bank_transfer,desktop,Berlin,2,16,1222,0,none,low
+txn_001011,M0017,1738.25,2025-12-16T13:14:27,pending,bank_transfer,mobile,Miami,4,5,1366,0,none,medium
+txn_001012,M0007,773.63,2025-01-31T23:14:27,completed,cash,tablet,Sydney,3,36,1004,5,refund,high
+txn_001013,M0008,751.38,2024-12-10T09:14:27,completed,wallet,mobile,Sydney,4,5,1292,0,billing,medium
+txn_001014,M0034,1638.37,2025-07-05T22:14:27,completed,card,mobile,London,4,30,866,0,duplicate,medium
+txn_001015,M0017,163.08,2025-08-03T12:14:27,pending,bank_transfer,tablet,Seattle,2,4,1351,2,chargeback,medium
+txn_001016,M0011,483.07,2024-12-18T04:14:27,pending,wallet,tablet,Toronto,1,15,225,1,none,low
+txn_001017,M0015,372.43,2025-01-05T19:14:27,pending,bank_transfer,mobile,Chicago,1,6,2077,0,none,low
+txn_001018,M0046,815.47,2025-09-03T06:14:27,completed,cash,mobile,Seattle,8,25,2046,6,chargeback,high
+txn_001019,M0045,1624.91,2025-02-11T03:14:27,failed,bank_transfer,tablet,Toronto,2,9,721,0,chargeback,medium
+txn_001020,M0010,312.29,2024-11-19T00:14:27,failed,bank_transfer,tablet,Seattle,0,7,412,0,none,low
+txn_001021,M0016,461.26,2026-02-10T22:14:27,pending,wallet,tablet,Miami,0,10,2365,0,none,low
+txn_001022,M0016,118.44,2026-02-20T08:14:27,completed,card,tablet,Berlin,2,8,1034,0,none,low
+txn_001023,M0024,816.4,2025-08-28T13:14:27,completed,bank_transfer,mobile,Seattle,2,17,441,3,billing,medium
+txn_001024,M0045,463.35,2026-05-15T02:14:27,failed,wallet,tablet,Sydney,0,11,2243,1,refund,low
+txn_001025,M0046,490.66,2025-01-19T05:14:27,pending,wallet,mobile,Miami,2,16,2222,1,refund,low
+txn_001026,M0036,34.18,2026-04-07T12:14:27,completed,card,mobile,Berlin,2,15,2066,1,refund,low
+txn_001027,M0028,368.44,2026-08-31T14:14:27,completed,wallet,mobile,Dallas,3,6,1532,2,billing,medium
+txn_001028,M0001,640.51,2025-03-25T15:14:27,completed,card,tablet,Seattle,3,14,536,3,chargeback,medium
+txn_001029,M0050,389.11,2026-03-14T05:14:27,refunded,wallet,desktop,New York,0,3,2199,1,none,low
+txn_001030,M0025,251.53,2025-02-18T14:14:27,refunded,cash,mobile,Berlin,0,11,394,0,none,low
+txn_001031,M0017,176.9,2026-01-13T21:14:27,completed,cash,desktop,Dallas,0,10,1484,0,none,low
+txn_001032,M0036,326.43,2026-09-08T17:14:27,completed,card,tablet,Seattle,0,11,1880,0,none,low
+txn_001033,M0005,8.85,2026-08-31T18:14:27,completed,wallet,desktop,Sydney,2,1,49,1,none,low
+txn_001034,M0050,271.33,2025-07-04T14:14:27,failed,wallet,tablet,Los Angeles,1,4,663,1,none,low
+txn_001035,M0044,867.78,2025-11-14T03:14:27,completed,wallet,tablet,Toronto,1,21,1685,0,none,medium
+txn_001036,M0008,57.06,2025-03-17T00:14:27,pending,card,mobile,Dallas,0,5,1411,1,none,low
+txn_001037,M0038,125.81,2025-05-25T15:14:27,completed,card,tablet,Chicago,1,7,1685,0,none,low
+txn_001038,M0019,658.53,2026-05-13T22:14:27,pending,cash,mobile,London,4,28,1178,1,refund,medium
+txn_001039,M0050,249.31,2025-11-19T21:14:27,refunded,bank_transfer,tablet,New York,1,4,1346,1,none,low
+txn_001040,M0020,28.48,2026-08-10T19:14:27,completed,cash,desktop,Seattle,0,10,2436,0,none,low
+txn_001041,M0014,598.88,2024-10-31T14:14:27,completed,card,mobile,Los Angeles,8,37,2156,2,duplicate,high
+txn_001042,M0025,1316.85,2024-12-12T17:14:27,completed,wallet,tablet,Chicago,1,26,476,3,refund,medium
+txn_001043,M0010,327.01,2025-09-14T00:14:27,completed,wallet,tablet,Miami,5,26,735,4,authorization,high
+txn_001044,M0025,830.37,2026-09-18T23:14:27,pending,bank_transfer,desktop,Berlin,3,10,1398,2,duplicate,medium
+txn_001045,M0008,13.13,2026-02-13T10:14:27,completed,wallet,mobile,Chicago,2,13,201,1,refund,low
+txn_001046,M0049,169.07,2025-12-11T18:14:27,completed,card,mobile,Dallas,2,9,1661,1,none,low
+txn_001047,M0015,3462.07,2025-06-05T21:14:27,completed,card,mobile,Los Angeles,9,17,530,5,none,high
+txn_001048,M0003,349.26,2026-05-05T22:14:27,completed,wallet,desktop,Seattle,0,8,1815,1,none,low
+txn_001049,M0025,14.99,2026-03-07T16:14:27,completed,wallet,mobile,Toronto,0,11,1057,0,none,low
+txn_001050,M0019,98.51,2026-07-20T05:14:27,completed,wallet,desktop,Toronto,0,11,1827,0,none,low
+txn_001051,M0024,623.26,2026-04-08T13:14:27,failed,card,desktop,Chicago,3,31,2131,5,chargeback,high
+txn_001052,M0003,129.91,2026-05-30T05:14:27,pending,card,desktop,Berlin,1,22,179,3,none,medium
+txn_001053,M0041,3975.3,2025-05-14T17:14:27,completed,cash,mobile,Los Angeles,6,29,1851,6,chargeback,high
+txn_001054,M0024,440.69,2025-08-28T04:14:27,failed,card,mobile,Miami,0,5,1204,0,none,low
+txn_001055,M0026,234.29,2024-12-27T01:14:27,completed,cash,mobile,Berlin,2,18,959,1,refund,low
+txn_001056,M0014,865.74,2025-08-17T08:14:27,pending,wallet,desktop,Dallas,4,18,804,2,refund,medium
+txn_001057,M0031,474.42,2025-11-19T06:14:27,completed,card,tablet,Berlin,2,12,1927,1,none,low
+txn_001058,M0034,417.78,2025-03-14T07:14:27,completed,cash,desktop,Berlin,2,14,238,0,authorization,low
+txn_001059,M0021,109.58,2025-02-18T06:14:27,completed,cash,desktop,Los Angeles,2,6,1149,0,none,low
+txn_001060,M0006,937.63,2026-09-21T11:14:27,completed,bank_transfer,mobile,Dallas,1,25,258,0,chargeback,medium
+txn_001061,M0029,1729.37,2025-11-09T18:14:27,failed,cash,mobile,Los Angeles,3,30,195,2,billing,medium
+txn_001062,M0036,57.94,2025-04-01T17:14:27,completed,cash,tablet,Miami,2,6,652,0,none,low
+txn_001063,M0031,1638.13,2026-08-20T08:14:27,failed,cash,mobile,Los Angeles,1,25,360,3,chargeback,medium
+txn_001064,M0037,1104.77,2026-09-08T21:14:27,refunded,bank_transfer,mobile,Chicago,3,18,1257,1,duplicate,medium
+txn_001065,M0041,235.74,2026-06-07T15:14:27,completed,bank_transfer,mobile,Chicago,2,23,674,3,none,medium
+txn_001066,M0018,491.92,2025-09-21T04:14:27,completed,card,mobile,Seattle,1,1,2447,1,none,low
+txn_001067,M0049,596.46,2025-10-19T11:14:27,completed,cash,tablet,Chicago,5,24,1087,4,none,high
+txn_001068,M0003,23.44,2026-03-08T21:14:27,completed,bank_transfer,tablet,London,2,1,2379,0,none,low
+txn_001069,M0019,403.15,2026-01-04T19:14:27,completed,bank_transfer,desktop,Berlin,1,14,1431,0,none,low
+txn_001070,M0024,783.33,2026-06-12T05:14:27,completed,card,desktop,Sydney,7,37,474,1,authorization,high
+txn_001071,M0038,1428.51,2025-10-14T17:14:27,completed,cash,tablet,Seattle,1,4,1540,0,none,medium
+txn_001072,M0006,297.8,2026-07-08T07:14:27,completed,card,mobile,Dallas,1,5,1502,1,refund,medium
+txn_001073,M0039,360.75,2026-03-10T14:14:27,refunded,wallet,mobile,Miami,1,11,2198,0,none,low
+txn_001074,M0035,1114.24,2026-03-11T04:14:27,completed,wallet,tablet,Chicago,1,18,438,0,chargeback,medium
+txn_001075,M0027,247.31,2024-12-17T18:14:27,completed,bank_transfer,desktop,London,2,14,1608,1,chargeback,medium
+txn_001076,M0032,177.62,2026-04-17T10:14:27,completed,bank_transfer,tablet,New York,0,17,58,1,none,low
+txn_001077,M0044,410.31,2025-09-23T14:14:27,completed,card,tablet,Miami,0,15,79,0,none,low
+txn_001078,M0048,656.03,2025-11-25T21:14:27,completed,wallet,desktop,Sydney,3,27,1720,3,duplicate,medium
+txn_001079,M0030,347.91,2025-08-12T22:14:27,failed,cash,desktop,Los Angeles,1,15,1920,1,none,low
+txn_001080,M0001,767.75,2024-12-21T08:14:27,completed,cash,tablet,Los Angeles,1,8,1674,2,duplicate,medium
+txn_001081,M0032,473.45,2025-12-26T02:14:27,completed,cash,desktop,Miami,0,4,97,1,none,low
+txn_001082,M0011,1554.41,2025-05-05T23:14:27,completed,cash,tablet,New York,3,11,449,3,billing,medium
+txn_001083,M0001,60.16,2025-05-11T06:14:27,completed,bank_transfer,tablet,Los Angeles,1,16,1215,0,billing,low
+txn_001084,M0045,160.82,2025-10-14T13:14:27,completed,wallet,mobile,Sydney,2,14,529,0,none,low
+txn_001085,M0021,659.81,2025-10-29T14:14:27,completed,cash,mobile,Toronto,9,28,1718,2,chargeback,high
+txn_001086,M0040,398.56,2025-02-20T05:14:27,completed,wallet,desktop,Berlin,2,7,550,1,none,low
+txn_001087,M0032,446.15,2024-12-30T02:14:27,completed,cash,tablet,Miami,1,17,421,1,none,low
+txn_001088,M0041,199.67,2026-07-30T21:14:27,completed,card,mobile,Seattle,0,9,616,1,none,low
+txn_001089,M0013,930.69,2025-11-11T17:14:27,failed,wallet,tablet,Sydney,2,29,618,2,authorization,medium
+txn_001090,M0001,368.84,2025-09-08T23:14:27,completed,bank_transfer,mobile,Dallas,2,7,2174,1,billing,low
+txn_001091,M0036,20.44,2026-04-30T22:14:27,completed,wallet,tablet,Berlin,2,14,352,1,none,low
+txn_001092,M0009,301.01,2025-06-22T03:14:27,completed,bank_transfer,desktop,Chicago,3,18,625,1,none,medium
+txn_001093,M0028,168.66,2025-09-09T19:14:27,completed,bank_transfer,mobile,Los Angeles,1,12,610,1,none,low
+txn_001094,M0009,419.35,2026-08-02T13:14:27,completed,cash,desktop,Chicago,0,10,1357,0,none,low
+txn_001095,M0049,58.31,2025-10-18T10:14:27,completed,card,mobile,London,0,8,406,1,none,low
+txn_001096,M0017,266.14,2025-06-27T07:14:27,completed,wallet,desktop,New York,2,13,664,0,none,low
+txn_001097,M0009,282.38,2026-02-03T08:14:27,refunded,bank_transfer,mobile,London,0,8,1990,0,chargeback,low
+txn_001098,M0036,1246.04,2024-11-12T14:14:27,completed,card,desktop,Dallas,1,20,1627,2,authorization,medium
+txn_001099,M0011,110.75,2025-02-11T01:14:27,completed,cash,desktop,Los Angeles,2,16,59,1,none,low
+txn_001100,M0017,458.28,2026-04-19T06:14:27,pending,bank_transfer,desktop,Seattle,2,10,1118,1,none,low
+txn_001101,M0026,779.62,2024-11-30T15:14:27,completed,wallet,desktop,Chicago,3,18,119,3,billing,medium
+txn_001102,M0020,403.88,2024-11-08T06:14:27,failed,bank_transfer,mobile,New York,2,7,849,1,none,low
+txn_001103,M0014,121.07,2026-02-20T07:14:27,failed,cash,tablet,London,1,7,2123,0,none,low
+txn_001104,M0043,889.25,2025-05-25T19:14:27,completed,wallet,desktop,Sydney,4,23,1603,1,none,medium
+txn_001105,M0037,8.13,2025-11-22T22:14:27,completed,wallet,desktop,New York,0,2,75,1,none,low
+txn_001106,M0008,325.72,2026-09-07T03:14:27,pending,bank_transfer,desktop,Miami,1,12,341,1,none,low
+txn_001107,M0030,466.66,2026-06-06T10:14:27,pending,bank_transfer,mobile,New York,0,4,154,1,duplicate,low
+txn_001108,M0030,925.94,2026-08-30T11:14:27,completed,cash,desktop,New York,2,10,193,3,none,medium
+txn_001109,M0013,29.66,2025-12-30T12:14:27,completed,wallet,tablet,Berlin,0,9,1183,1,authorization,low
+txn_001110,M0048,1793.01,2025-05-17T05:14:27,completed,card,mobile,Seattle,1,22,1770,3,billing,medium
+txn_001111,M0010,188.71,2025-09-13T13:14:27,completed,bank_transfer,tablet,Seattle,1,18,701,1,none,low
+txn_001112,M0027,293.46,2024-11-09T21:14:27,completed,bank_transfer,mobile,Chicago,1,15,1453,1,duplicate,low
+txn_001113,M0022,443.31,2024-11-02T07:14:27,failed,wallet,tablet,Seattle,1,12,1941,1,none,low
+txn_001114,M0035,417.35,2025-07-27T09:14:27,refunded,card,tablet,Chicago,0,5,873,1,refund,low
+txn_001115,M0024,133.32,2025-10-30T13:14:27,pending,cash,tablet,London,2,6,958,1,none,low
+txn_001116,M0033,180.76,2026-03-20T14:14:27,completed,card,mobile,Los Angeles,1,4,954,1,duplicate,low
+txn_001117,M0013,4261.14,2025-03-23T16:14:27,completed,card,desktop,New York,6,20,1673,3,authorization,high
+txn_001118,M0043,109.89,2026-05-30T23:14:27,refunded,cash,desktop,Sydney,2,3,304,1,none,low
+txn_001119,M0003,198.77,2025-01-30T11:14:27,completed,cash,mobile,Seattle,0,10,1785,1,none,low
+txn_001120,M0044,352.71,2025-01-02T01:14:27,refunded,cash,desktop,London,1,18,431,1,none,low
+txn_001121,M0048,247.82,2024-12-22T09:14:27,completed,bank_transfer,desktop,Sydney,0,16,1062,0,refund,low
+txn_001122,M0038,495.75,2026-06-24T12:14:27,completed,card,tablet,Berlin,6,40,1858,2,duplicate,high
+txn_001123,M0012,97.17,2026-05-31T14:14:27,completed,cash,mobile,Los Angeles,1,13,2224,0,none,low
+txn_001124,M0050,303.75,2025-05-20T05:14:27,completed,wallet,mobile,New York,1,4,664,0,authorization,low
+txn_001125,M0009,117.92,2026-06-03T09:14:27,completed,card,mobile,Berlin,2,16,966,1,none,low
+txn_001126,M0045,351.87,2026-08-26T04:14:27,completed,cash,desktop,Chicago,0,17,1538,0,none,low
+txn_001127,M0011,439.87,2026-01-23T08:14:27,completed,card,tablet,Los Angeles,2,12,1974,1,none,low
+txn_001128,M0008,869.45,2024-11-26T07:14:27,completed,card,desktop,Dallas,3,21,598,3,chargeback,medium
+txn_001129,M0018,73.54,2026-09-17T09:14:27,completed,card,mobile,Los Angeles,2,13,75,1,refund,low
+txn_001130,M0036,127.89,2026-02-22T09:14:27,completed,card,desktop,Los Angeles,1,7,802,1,none,low
+txn_001131,M0041,364.28,2026-01-19T16:14:27,pending,bank_transfer,desktop,Miami,1,19,1111,0,billing,medium
+txn_001132,M0015,378.17,2025-09-12T00:14:27,completed,wallet,mobile,Sydney,0,11,1646,0,authorization,low
+txn_001133,M0002,3204.42,2025-05-08T10:14:27,completed,cash,desktop,Toronto,8,15,998,5,duplicate,high
+txn_001134,M0022,446.69,2025-06-10T16:14:27,pending,bank_transfer,tablet,Sydney,0,2,1543,1,none,low
+txn_001135,M0044,159.61,2025-02-02T14:14:27,completed,wallet,mobile,Seattle,1,17,2027,1,none,low
+txn_001136,M0039,248.92,2025-12-29T04:14:27,failed,wallet,mobile,Seattle,1,18,2147,0,none,low
+txn_001137,M0028,3526.29,2025-08-04T04:14:27,completed,wallet,tablet,Los Angeles,7,24,795,3,duplicate,high
+txn_001138,M0030,1276.4,2025-03-12T02:14:27,completed,wallet,desktop,Miami,2,25,1464,2,none,medium
+txn_001139,M0037,109.22,2025-08-23T21:14:27,completed,cash,tablet,Seattle,2,11,779,1,none,low
+txn_001140,M0030,306.14,2026-03-20T04:14:27,failed,bank_transfer,tablet,Sydney,1,4,1572,1,chargeback,low
+txn_001141,M0012,138.72,2025-08-29T02:14:27,completed,card,mobile,New York,1,16,2468,0,none,low
+txn_001142,M0014,42.58,2026-06-22T13:14:27,completed,card,tablet,Sydney,0,18,2222,1,refund,low
+txn_001143,M0049,62.82,2026-02-15T17:14:27,completed,bank_transfer,tablet,Seattle,2,9,1194,1,billing,low
+txn_001144,M0002,374.86,2025-09-02T06:14:27,completed,wallet,desktop,Sydney,3,28,510,1,none,medium
+txn_001145,M0040,1764.17,2025-08-09T05:14:27,completed,wallet,desktop,Dallas,3,29,1055,0,chargeback,medium
+txn_001146,M0027,9.56,2026-02-04T09:14:27,failed,cash,mobile,Los Angeles,2,10,1812,1,none,low
+txn_001147,M0034,765.92,2024-11-08T21:14:27,completed,bank_transfer,mobile,New York,4,4,1168,2,refund,medium
+txn_001148,M0011,310.89,2025-01-21T14:14:27,completed,cash,desktop,Dallas,1,7,1557,0,none,low
+txn_001149,M0037,207.31,2025-06-06T12:14:27,completed,wallet,tablet,Chicago,0,10,975,1,none,low
+txn_001150,M0028,401.65,2025-07-09T13:14:27,completed,card,mobile,Miami,1,12,1502,1,chargeback,low
+txn_001151,M0034,140.41,2025-02-06T16:14:27,completed,wallet,desktop,London,1,16,677,0,authorization,low
+txn_001152,M0019,382.27,2025-04-10T04:14:27,completed,wallet,mobile,Miami,0,6,408,0,none,low
+txn_001153,M0042,432.51,2026-06-26T17:14:27,completed,wallet,mobile,Toronto,4,13,401,0,refund,medium
+txn_001154,M0018,216.25,2026-07-13T10:14:27,pending,wallet,tablet,Chicago,0,8,100,0,none,low
+txn_001155,M0021,1049.78,2026-03-22T05:14:27,pending,wallet,mobile,Toronto,3,27,426,1,authorization,medium
+txn_001156,M0039,961.53,2026-04-23T08:14:27,completed,bank_transfer,tablet,Miami,1,16,336,1,chargeback,medium
+txn_001157,M0009,231.83,2026-08-17T10:14:27,refunded,card,mobile,Berlin,2,4,1046,0,none,low
+txn_001158,M0023,249.06,2025-06-08T16:14:27,refunded,cash,mobile,Toronto,1,18,2247,1,none,low
+txn_001159,M0027,1251.3,2025-09-18T03:14:27,completed,cash,mobile,Miami,9,13,159,2,chargeback,high
+txn_001160,M0049,162.76,2026-05-01T22:14:27,failed,wallet,tablet,Miami,0,1,912,1,none,low
+txn_001161,M0030,78.02,2025-06-10T01:14:27,failed,wallet,mobile,New York,0,15,1065,1,none,low
+txn_001162,M0028,79.6,2025-06-10T00:14:27,failed,card,tablet,Miami,2,4,1240,1,refund,low
+txn_001163,M0011,260.18,2026-03-15T03:14:27,failed,card,desktop,Los Angeles,1,2,1993,0,none,low
+txn_001164,M0022,1063.47,2025-09-14T12:14:27,completed,cash,mobile,Sydney,1,4,1103,1,none,medium
+txn_001165,M0036,189.04,2025-04-21T11:14:27,completed,card,desktop,London,2,4,1825,1,none,low
+txn_001166,M0018,359.42,2026-03-12T10:14:27,completed,cash,desktop,New York,2,9,619,0,none,low
+txn_001167,M0017,13.96,2026-04-26T23:14:27,completed,wallet,desktop,Chicago,0,7,1743,0,none,low
+txn_001168,M0006,26.43,2026-04-12T15:14:27,completed,cash,mobile,Sydney,2,16,300,0,none,low
+txn_001169,M0044,745.16,2025-10-29T20:14:27,completed,bank_transfer,tablet,Dallas,4,12,1241,2,none,medium
+txn_001170,M0020,18.93,2025-08-11T11:14:27,refunded,bank_transfer,desktop,Los Angeles,1,9,1374,1,none,low
+txn_001171,M0048,423.49,2025-03-22T20:14:27,completed,cash,mobile,Sydney,0,8,1931,0,none,low
+txn_001172,M0028,47.92,2026-08-01T23:14:27,completed,wallet,mobile,Berlin,0,16,301,1,none,low
+txn_001173,M0026,2202.58,2025-05-14T00:14:27,completed,cash,desktop,Miami,7,12,1271,2,refund,high
+txn_001174,M0048,403.83,2026-07-07T09:14:27,completed,card,desktop,Toronto,1,6,2479,1,none,low
+txn_001175,M0024,449.12,2026-08-27T08:14:27,completed,bank_transfer,tablet,Sydney,2,5,240,0,none,low
+txn_001176,M0013,89.29,2026-07-07T11:14:27,completed,wallet,mobile,Berlin,1,11,439,0,none,low
+txn_001177,M0011,299.94,2025-06-12T17:14:27,failed,card,mobile,Sydney,2,17,323,1,duplicate,low
+txn_001178,M0042,147.58,2025-09-26T20:14:27,completed,cash,mobile,Dallas,1,11,696,1,none,low
+txn_001179,M0038,1543.17,2026-04-24T11:14:27,completed,card,desktop,Chicago,3,10,552,3,chargeback,medium
+txn_001180,M0027,1018.83,2026-01-27T14:14:27,completed,card,tablet,Toronto,3,23,1372,6,chargeback,high
+txn_001181,M0004,628.28,2025-08-25T06:14:27,completed,card,mobile,London,2,19,1403,0,duplicate,medium
+txn_001182,M0028,252.83,2025-10-29T13:14:27,refunded,bank_transfer,tablet,Los Angeles,2,13,1355,1,duplicate,low
+txn_001183,M0009,393.34,2025-10-22T08:14:27,completed,wallet,tablet,Sydney,1,14,411,1,none,low
+txn_001184,M0040,144.71,2024-12-22T01:14:27,completed,bank_transfer,mobile,New York,0,6,1741,0,none,low
+txn_001185,M0018,387.61,2024-11-23T13:14:27,pending,cash,tablet,Sydney,2,7,894,0,none,low
+txn_001186,M0002,309.21,2025-06-19T11:14:27,completed,cash,tablet,Chicago,1,2,1893,1,none,low
+txn_001187,M0015,440.09,2025-11-25T16:14:27,failed,bank_transfer,mobile,Miami,1,8,1320,0,none,low
+txn_001188,M0018,120.78,2026-08-12T10:14:27,pending,cash,desktop,Toronto,0,15,1008,1,chargeback,low
+txn_001189,M0036,1351.02,2025-02-12T06:14:27,completed,bank_transfer,desktop,Dallas,3,28,1289,0,authorization,medium
+txn_001190,M0031,2517.45,2026-07-10T02:14:27,completed,card,desktop,Los Angeles,7,16,830,1,authorization,high
+txn_001191,M0024,4466.79,2025-07-20T06:14:27,pending,card,mobile,Miami,4,23,1063,4,chargeback,high
+txn_001192,M0050,4241.88,2026-09-26T05:14:27,completed,bank_transfer,desktop,Chicago,3,9,647,1,billing,high
+txn_001193,M0006,687.05,2025-12-19T10:14:27,completed,bank_transfer,desktop,London,4,20,310,3,none,medium
+txn_001194,M0034,1036.11,2026-04-16T08:14:27,completed,wallet,mobile,Seattle,3,27,97,0,none,medium
+txn_001195,M0050,427.93,2026-03-18T17:14:27,completed,card,tablet,Dallas,1,4,2128,1,authorization,low
+txn_001196,M0003,1688.78,2024-12-11T01:14:27,completed,card,mobile,Dallas,4,21,1638,3,duplicate,medium
+txn_001197,M0006,182.87,2026-09-22T02:14:27,failed,wallet,desktop,Sydney,2,12,1417,1,none,low
+txn_001198,M0008,384.93,2025-03-13T13:14:27,pending,card,tablet,Seattle,2,5,1969,1,none,low
+txn_001199,M0009,272.24,2025-11-25T15:14:27,refunded,bank_transfer,mobile,Los Angeles,1,10,189,0,refund,low
+txn_001200,M0019,426.07,2025-11-25T23:14:27,completed,bank_transfer,desktop,Chicago,0,17,1520,0,none,low

@@ -1,0 +1,1 @@
+The frontend reads and writes data through `src/services/api.js`, which targets the local FastAPI service at `http://127.0.0.1:8000`. The login is intentionally a local demo gate only; it does not authenticate against a server.
