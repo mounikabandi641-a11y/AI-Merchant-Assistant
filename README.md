@@ -31,12 +31,20 @@ Open `http://localhost:5173`. Vite proxies API requests to the Java backend at `
 
 The local demo sign-in accepts any non-empty username and password. Transaction details can be opened from the ledger; **Ask Assistant** carries the selected transaction into assistant context.
 
-## Build
+## Single-URL deployment
+
+The Render Docker service builds the React frontend, packages `frontend/dist` into the Spring Boot jar, and serves the UI and API from one origin. Configure the Render Web Service with the repository root as its Docker context and `java-backend/Dockerfile` as its Dockerfile. Do not set a subdirectory root; the build needs the root `data/transactions.csv` file.
+
+The container binds to Render's `PORT` environment variable (local default `8080`). For durable SQLite data, mount a Render persistent disk at `/var/data` and set `SQLITE_DATABASE_FILE=/var/data/merchant_assistant.db`. The frontend uses relative API URLs in production.
+
+## Build locally
 
 ```powershell
 cd frontend
 npm run build
 
 cd ..\java-backend
-mvn package
+mvn clean package
 ```
+
+The Docker build runs both frontend and backend build steps and is the production packaging path.

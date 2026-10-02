@@ -13,7 +13,7 @@ cd java-backend
 mvn spring-boot:run
 ```
 
-The server listens on `http://localhost:8080`. The React development server can call it using the existing relative URLs by running Vite with a proxy, or the frontend can be served from the same origin after its production build. The Java API exposes the existing `/health`, `/transactions`, `/api/fraud/predict`, `/api/disputes`, and `/api/assistant/chat` routes.
+The server listens on `http://localhost:8080`. For local web development, run Vite separately; its proxy forwards relative API requests to Java. For production, the Java app serves the React build from the same origin. The Java API exposes `/health`, `/transactions`, `/transactions/{transaction_id}`, `/api/fraud/predict`, `/api/disputes/resolve`, `/api/disputes`, `/api/disputes/{dispute_id}`, and `/api/assistant/chat`.
 
 ## Deploy on Render
 
@@ -24,13 +24,12 @@ Render does not provide a native JVM runtime, so create a Docker Web Service fro
 - Dockerfile Path: `java-backend/Dockerfile`
 - Docker Context: `.` (repository root)
 
-The Dockerfile build stage runs the requested build command `mvn clean package` from `java-backend`. Its container start command is `java -jar target/merchant-assistant-backend-0.1.0.jar`. Both image stages use Java 17. Render supplies `PORT`; Spring Boot binds to it and defaults to `8080` locally.
+The Dockerfile builds React using `npm ci` and `npm run build`, copies `frontend/dist` into the Spring Boot static resources, then runs `mvn clean package` from `java-backend`. The container start command is `java -jar target/merchant-assistant-backend-0.1.0.jar`. Both image stages use Java 17. Render supplies `PORT`; Spring Boot binds to it and defaults to `8080` locally.
 
 Configure these environment variables:
 
-- `FRONTEND_ORIGIN`: the production frontend origin, for example `https://your-app.vercel.app` (origin only, no path).
 - `SQLITE_DATABASE_FILE`: `/var/data/merchant_assistant.db` when using a persistent disk.
 
 Attach a Render persistent disk mounted at `/var/data` for SQLite data to survive restarts and deploys. Persistent disks require a paid Render service. Without one, SQLite is on ephemeral storage and transaction/dispute changes can be lost when the instance is replaced. The Docker image includes the unchanged `data/transactions.csv` at `/app/data/transactions.csv`; when the database is empty, startup imports all 1,200 rows.
 
-Set `VITE_API_BASE_URL` in the frontend's Vercel project settings to the deployed Render service URL. This value is baked into the Vite production build; the local Vite proxy remains active for development.
+The UI and API share the Render service origin; no frontend API URL environment variable or CORS configuration is required for the combined deployment. The Vite proxy remains configured for local development.
