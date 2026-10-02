@@ -76,6 +76,7 @@ button:disabled { cursor: wait; opacity: 0.72; }
 .profile-avatar { display: grid; width: 29px; height: 29px; place-items: center; color: #216451; border-radius: 8px; background: #dcefe7; font: 600 11px 'Space Grotesk', sans-serif; }
 .content-area { width: min(100%, 1550px); margin: 0 auto; padding: 32px 37px 22px; }
 .page-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 22px; margin-bottom: 23px; }
+.page-actions { display: flex; flex-wrap: wrap; gap: 8px; }
 .eyebrow { margin: 0 0 9px; color: #7e918b; font-size: 8px; font-weight: 700; letter-spacing: 0; }
 h1, h2, p { margin-top: 0; }
 h1, h2 { font-family: 'Space Grotesk', 'DM Sans', sans-serif; letter-spacing: 0; }
@@ -371,6 +372,7 @@ h1, h2 { font-family: 'Space Grotesk', 'DM Sans', sans-serif; letter-spacing: 0;
   .page-heading { align-items: flex-start; flex-direction: column; gap: 13px; margin-bottom: 17px; }
   .page-heading h1 { font-size: 22px; }
   .page-heading .button { align-self: flex-start; }
+  .page-actions { align-self: stretch; }
   .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
   .metric-card { min-height: 125px; padding: 13px; }
   .metric-card:last-child { grid-column: 1 / -1; min-height: 111px; }

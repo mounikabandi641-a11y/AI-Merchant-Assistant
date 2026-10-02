@@ -244,7 +244,7 @@ function Dashboard({ transactions, disputes, onSelectTransaction, onNavigate, on
   );
 }
 
-function TransactionDetails({ transaction, riskResult, analyzing, onAnalyze, onBack }) {
+function TransactionDetails({ transaction, riskResult, analyzing, onAnalyze, onBack, onAskAssistant }) {
   const fields = [
     ['Payment status', transaction.payment_status],
     ['Payment method', transaction.payment_method],
@@ -256,7 +256,7 @@ function TransactionDetails({ transaction, riskResult, analyzing, onAnalyze, onB
   ];
   return (
     <>
-      <PageHeading eyebrow="TRANSACTION RECORD" title={transaction.transaction_id} detail="Review the transaction facts and request a model risk estimate." action={<button className="button button-secondary" onClick={onBack}><ArrowRight className="back-arrow" size={16} /> Back to transactions</button>} />
+      <PageHeading eyebrow="TRANSACTION RECORD" title={transaction.transaction_id} detail="Review the transaction facts and request a model risk estimate." action={<div className="page-actions"><button className="button button-secondary" onClick={onBack}><ArrowRight className="back-arrow" size={16} /> Back to transactions</button><button className="button button-primary" onClick={onAskAssistant}><MessageCircle size={16} /> Ask Assistant</button></div>} />
       <section className="detail-layout">
         <article className="panel detail-panel">
           <div className="detail-amount"><span>Transaction amount</span><strong>{formatAmount(transaction.amount)}</strong><Badge tone={statusTone(transaction.payment_status)} dot>{transaction.payment_status}</Badge></div>
@@ -618,7 +618,7 @@ export default function App() {
           {loading && transactions.length === 0 && disputes.length === 0 ? <div className="loading-panel"><span className="spinner" />Loading merchant data…</div> : null}
           {page === 'dashboard' && <Dashboard transactions={transactions} disputes={disputes} onSelectTransaction={openTransaction} onNavigate={navigate} onOpenDispute={openDispute} />}
           {page === 'transactions' && <><PageHeading eyebrow="PAYMENT LEDGER" title="Transactions" detail="Search, inspect, and analyze transactions from your connected database." action={<button className="button button-secondary" onClick={refreshData}><Activity size={16} /> Refresh data</button>} /><section className="panel table-panel"><div className="panel-heading"><div><p className="eyebrow">ALL RECORDS</p><h2>Transaction ledger <span className="count-pill">{transactions.length}</span></h2></div><Badge tone="neutral">Synthetic records</Badge></div><TransactionTable transactions={[...transactions].reverse()} onSelect={openTransaction} showSearch /></section></>}
-          {page === 'transaction-details' && selectedTransaction && <TransactionDetails transaction={selectedTransaction} riskResult={riskResult} analyzing={analyzing} onAnalyze={analyzeRisk} onBack={() => navigate('transactions')} />}
+          {page === 'transaction-details' && selectedTransaction && <TransactionDetails transaction={selectedTransaction} riskResult={riskResult} analyzing={analyzing} onAnalyze={analyzeRisk} onBack={() => navigate('transactions')} onAskAssistant={() => navigate('assistant')} />}
           {page === 'transaction-details' && !selectedTransaction && <EmptyState icon={CreditCard} title="Choose a transaction" detail="Open a transaction from the ledger to view its details." />}
           {page === 'disputes' && <DisputeCenter disputes={disputes} transactions={transactions} onResolved={refreshData} initialDispute={selectedDispute} />}
           {page === 'risk' && <><PageHeading eyebrow="MODEL-ASSISTED REVIEW" title="Risk analysis" detail="Review existing risk indicators, then analyze a transaction using the trained model." action={<button className="button button-secondary" onClick={() => navigate('transactions')}><Search size={16} /> Find a transaction</button>} /><div className="risk-callout"><div className="risk-callout-icon"><ShieldAlert size={19} /></div><div><strong>Risk indicators are signals, not verdicts.</strong><p>Model results support human review and should be considered alongside verified transaction records.</p></div></div><section className="panel table-panel"><div className="panel-heading"><div><p className="eyebrow">FLAGGED FOR REVIEW</p><h2>Elevated indicators</h2></div><Badge tone="warning" dot>{transactions.filter((item) => ['high', 'elevated', 'critical', 'medium'].includes(String(item.fraud_risk_label).toLowerCase())).length} records</Badge></div><TransactionTable transactions={[...transactions].reverse()} onSelect={openTransaction} showSearch riskOnly /></section></>}

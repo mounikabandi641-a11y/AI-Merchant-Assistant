@@ -15,6 +15,13 @@ venv/
 *.db
 *.sqlite3
 
+# Java / Android build outputs
+/java-backend/target/
+**/.gradle/
+**/build/
+**/local.properties
+*.apk
+
 # React / Node
 node_modules/
 build/
