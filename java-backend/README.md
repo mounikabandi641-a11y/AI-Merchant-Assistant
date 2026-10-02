@@ -1,10 +1,10 @@
 # Java Spring Boot Backend
 
-This backend runs alongside the existing Python/FastAPI service. It uses Spring Boot 3.3.5, Java 17, Maven, Spring Web, Spring Data JPA/Hibernate, and SQLite.
+This is the application backend. It uses Spring Boot 3.3.5, Java 17, Maven, Spring Web, Spring Data JPA/Hibernate, and SQLite.
 
-## ML compatibility note
+## Risk scoring
 
-The existing `model/random_forest_risk_model.joblib` is a Python scikit-learn Pipeline. Java cannot execute that artifact directly without a Python runtime or a model conversion step. This project therefore uses the explicitly named deterministic `RiskService` compatibility scorer so the API is available without silently claiming Random Forest parity. The original Python Random Forest remains untouched and remains the reference implementation. A future ONNX conversion can replace this service after validating prediction parity.
+`RiskService` provides deterministic risk estimates from the transaction attributes available to the application. Its score is a review signal, not a fraud verdict.
 
 ## Run
 

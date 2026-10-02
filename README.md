@@ -7,7 +7,6 @@ A merchant operations application for transaction review, risk analysis, dispute
 - `java-backend/`: Java 17, Spring Boot 3.3.5 REST API with Spring Data JPA, Hibernate, and SQLite.
 - `frontend/`: React and Vite web application with dashboard, transaction ledger/details, risk analysis, dispute resolver, and AI Assistant.
 - `data/transactions.csv`: the project's 1,200 synthetic transaction records. On a fresh Java database, the backend imports these records at startup only when the transactions table is empty.
-- `backend/` and `ml/`: original Python/FastAPI backend and model-training code retained in the repository.
 
 The Java backend creates its SQLite database in `java-backend/merchant_assistant.db`. Database files and build outputs are local runtime artifacts and are not committed.
 

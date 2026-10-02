@@ -1,17 +1,9 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.venv/
-.venv-1/
-.venv313/
-venv/
+# Environment files
 .env
 .env.*
 !.env.example
 
-# FastAPI / SQLite
+# SQLite
 *.db
 *.sqlite3
 

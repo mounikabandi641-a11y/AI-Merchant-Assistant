@@ -1,10 +1,5 @@
-import { Capacitor } from '@capacitor/core';
-
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL
-  || (Capacitor.isNativePlatform() ? 'http://10.0.2.2:8080' : '');
-
 async function request(path, options = {}) {
-  const response = await fetch(`${API_BASE_URL}${path}`, {
+  const response = await fetch(path, {
     ...options,
     headers: {
       ...(options.body ? { 'Content-Type': 'application/json' } : {}),
