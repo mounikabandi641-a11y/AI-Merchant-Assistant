@@ -1,0 +1,11 @@
+.git
+.env
+.env.*
+**/node_modules
+**/dist
+**/target
+**/.gradle
+**/*.db
+**/*.sqlite3
+**/.venv*
+**/venv

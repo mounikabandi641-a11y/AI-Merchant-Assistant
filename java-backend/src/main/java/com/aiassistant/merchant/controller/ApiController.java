@@ -17,7 +17,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173", "http://127.0.0.1:5173", "http://localhost", "capacitor://localhost"})
 public class ApiController {
     private final TransactionRepository transactions; private final DisputeRepository disputes; private final RiskService risk; private final DisputeService disputeService; private final AssistantService assistant;
     public ApiController(TransactionRepository transactions, DisputeRepository disputes, RiskService risk, DisputeService disputeService, AssistantService assistant) { this.transactions = transactions; this.disputes = disputes; this.risk = risk; this.disputeService = disputeService; this.assistant = assistant; }

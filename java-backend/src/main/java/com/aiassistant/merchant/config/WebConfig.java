@@ -1,12 +1,28 @@
 package com.aiassistant.merchant.config;
 
+import java.util.ArrayList;
+import java.util.List;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
+    @Value("${FRONTEND_ORIGIN:}")
+    private String frontendOrigin;
+
     @Override public void addCorsMappings(CorsRegistry registry) {
-        registry.addMapping("/**").allowedOrigins("http://localhost:5173", "http://127.0.0.1:5173", "http://localhost", "capacitor://localhost").allowedMethods("GET", "POST", "PATCH", "OPTIONS").allowedHeaders("*");
+        List<String> allowedOrigins = new ArrayList<>(List.of(
+            "http://localhost:5173",
+            "http://127.0.0.1:5173",
+            "http://localhost"
+        ));
+        String configuredOrigin = frontendOrigin.trim();
+        if (!configuredOrigin.isEmpty() && !allowedOrigins.contains(configuredOrigin)) {
+            allowedOrigins.add(configuredOrigin);
+        }
+        registry.addMapping("/**").allowedOrigins(allowedOrigins.toArray(String[]::new))
+            .allowedMethods("GET", "POST", "PATCH", "OPTIONS").allowedHeaders("*");
     }
 }
