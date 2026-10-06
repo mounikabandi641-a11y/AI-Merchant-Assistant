@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://ai-merchant-assistant-1.onrender.com/api/:path*"
+    },
+    {
+      "source": "/transactions/:path*",
+      "destination": "https://ai-merchant-assistant-1.onrender.com/transactions/:path*"
+    }
+  ]
+}
